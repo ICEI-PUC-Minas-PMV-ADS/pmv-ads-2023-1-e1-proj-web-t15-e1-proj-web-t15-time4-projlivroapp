@@ -46,31 +46,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| A plataforma deve permitir ao usuário criar uma conta e fazer login. | ALTA | 
+|RF-02| A plataforma deve conter um espaço para notas e comentários para cada título.  | ALTA |
+|RF-03| A plataforma deve permitir que o usuário compartilhe seu progresso de leitura na própria plataforma e/ou em integração com outras redes sociais.| ALTA | 
+|RF-04| A plataforma deve permitir que o usuário crie grupos de leituras. | ALTA | 
+|RF-05| A plataforma deve permitir que o usuário crie wishlists.| MÉDIA | 
+|RF-06| A plataforma deve ter uma seção de links/pesquisas que estão disponíveis gratuitamente (sem direitos autorais). | ALTA | 
+|RF-07| A plataforma deve fazer indicações de leitura com base no perfil do usuário. | MÉDIA | 
+|RF-08| O uso das funcionalidades poderá ser feito apenas para usuários registrados na plataforma. | ALTA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| O site deve ser publicado em um ambiente acessível publicamente na Internet. | ALTA | 
+|RNF-02| O site deverá ser responsivo permitindo a visualização em qualquer dispositivo de forma adequada.|  ALTA | 
+|RNF-03| O site deve ser compatível com os principais navegadores de mercado (Google Chrome, Firefox, Microsoft Edge. | ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
