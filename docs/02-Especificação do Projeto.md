@@ -2,9 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O projeto contou com uma abordagem de pesquisa pelos membros da equipe, com o objetivo de aprofundamento do problema, identificando os pontos mais relevantes a serem retratados. Os usuários foram submetidos a questões sobre suas preferências, dificuldades e hábitos, nos dando um panorama satisfatório de suas atividades relacionadas à leitura. As informações adquiridas foram convertidas em personas e histórias de usuários, que servirão como fundamento para o desenvolvimento do projeto. 
 
 ## Personas
 
