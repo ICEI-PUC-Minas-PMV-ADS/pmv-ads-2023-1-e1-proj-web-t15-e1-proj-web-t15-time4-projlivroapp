@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Projeto Livro App
 
 `CURSO`
 
