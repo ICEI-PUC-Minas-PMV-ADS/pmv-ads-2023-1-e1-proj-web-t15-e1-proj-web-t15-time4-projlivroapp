@@ -24,8 +24,9 @@ O segundo livro da neurocientista cognitiva americana Maryanne Wolf, intitulado 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Tanto leitores frequentes como pessoas que desejam tornar a leitura parte de sua rotina diária (mesmo que seja necessário fomentar este desejo) são o público-alvo desta solução.  
+
+Este grupo em foco tem idade predominante entre 16 e 30 anos e utiliza-se com grande frequência de redes sociais (acessando-as principalmente de dispositivos móveis). Pesquisa realizada durante este trabalho também mostra o emprego de aplicativos educacionais, bem como a predominância de games como atividade de lazer. 
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
