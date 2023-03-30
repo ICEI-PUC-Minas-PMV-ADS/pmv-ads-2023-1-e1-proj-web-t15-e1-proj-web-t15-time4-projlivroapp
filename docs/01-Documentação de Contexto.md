@@ -1,36 +1,26 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A predominância do uso das redes sociais como atividade de lazer nos mais diversos grupos etários, de renda e de instrução criou um ambiente desafiador para o desempenho de atividades fundamentais que requerem alta concentração, como o hábito da leitura.  
+
+O uso excessivo das redes sociais pode afetar negativamente a atenção e o raciocínio crítico, resultando em dificuldades para compreender textos mais complexos e longos. Isso se deve, em parte, à natureza fragmentada e superficial do conteúdo encontrado nas redes sociais, que frequentemente utilizam apenas imagens e vídeos (como Reels, do Instagram, o Shorts, no Youtube e o Tiktok).  A característica marcante destes vídeos curtos é a possibilidade de serem consumidos em grande volume em questão de minutos. Isso representa uma ruptura em relação ao consumo tradicional dos livros, nos quais o indivíduo normalmente precisa concentrar-se por um período maior de tempo. 
+
+Tendo em vista o uso tão predominante das redes sociais, torna-se importante reavivar a leitura com seu caráter de atividade prazerosa e indutora das capacidades intelectuais. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Este projeto procura auxiliar no combate ao crescente enfraquecimento do hábito da leitura utilizando precisamente as técnicas e ferramentas daquelas que representam hoje o maior antagonismo aos livros nos espaços de lazer individual: as redes sociais. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo deste trabalho é criar uma plataforma de cadastro, exibição e compartilhamento de todos os aspectos pertinentes ao ato de ler livros, utilizando técnicas de amplificação de engajamento como a gamificação para fomentar um ambiente em que as pessoas reencontrem o prazer da leitura em companhia de amigos e desconhecidos de todo o mundo. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar: 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Dados da 5ª edição da pesquisa Retratos da Leitura no Brasil indicam uma queda de 4,6 milhões entre as pessoas que se declaram leitoras entre os anos de 2015 e 2019. Indicadores do mesmo levantamento também apontam possíveis causas: quando perguntadas sobre o que gostam de fazer em seu tempo livre, 66% diziam usar a internet, 62% o aplicativo WhatsApp e 44% outras redes sociais como Facebook, Twitter ou Instagram. Indivíduos que declaram ler livros em papel ou digitais somam 24%. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O segundo livro da neurocientista cognitiva americana Maryanne Wolf, intitulado "O Cérebro no Mundo Digital - Os desafios da leitura na nossa era" (ed. Contexto), juntamente com diversas pesquisas sobre o assunto, indica que a leitura cada vez mais frequente em telas, em detrimento do papel, bem como a prática crescente de simplesmente "passar os olhos", ou seja, ler superficialmente múltiplos textos e postagens online, podem estar comprometendo nossa habilidade de compreender argumentos complexos, analisar criticamente o que lemos e até mesmo demonstrar empatia por perspectivas diferentes das nossas. É evidente, portanto, que as redes sociais atuais, com sua ênfase na superficialidade, contribuem para a deterioração da nossa capacidade argumentativa. 
 
 ## Público-Alvo
 
