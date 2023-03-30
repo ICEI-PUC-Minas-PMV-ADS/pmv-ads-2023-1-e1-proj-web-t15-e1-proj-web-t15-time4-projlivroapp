@@ -74,13 +74,14 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na lista a seguir.  
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|01| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend. |
+|02| A equipe não pode subcontratar o desenvolvimento do aplicativo. |
+|03| O aplicativo deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 12/07/2023. |
+|04| O aplicativo deve utilizar as linguagens mais aplicadas atualmente na Web. |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
