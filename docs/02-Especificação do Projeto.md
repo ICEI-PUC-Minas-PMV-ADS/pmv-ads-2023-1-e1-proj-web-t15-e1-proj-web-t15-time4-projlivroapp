@@ -83,7 +83,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 |03| O aplicativo deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 12/07/2023. |
 |04| O aplicativo deve utilizar as linguagens mais aplicadas atualmente na Web. |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
