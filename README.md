@@ -2,7 +2,7 @@
 
 **Curso de Tecnologia em Análise e Desenvolvimento de Sistemas**
 
-**Disciplina de Projeto: Desenvolvimento de Aplicação Web Front-End**
+**Disciplina: Desenvolvimento de Aplicação Web Front-End**
 
 **Turma 15 - 2023/1**
 
@@ -25,7 +25,7 @@ Cadastre, compartilhe e comente sobre os livros que você está lendo com seus a
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+_[Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.]_
 
 # Documentação
 
@@ -45,7 +45,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+_[Insira o endereço eletrônico público de acesso ao conteúdo publicado.]_ 
 
 # Armazenamento do Código-Fonte
 
