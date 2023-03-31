@@ -1,12 +1,14 @@
-# Projeto Livro App
+# Projeto Livro App (nome provisório)
 
-`CURSO`
+**Curso de Tecnologia em Análise e Desenvolvimento de Sistemas**
 
-`DISCIPLINA`
+**Disciplina de Projeto: Desenvolvimento de Aplicação Web Front-End**
 
-`SEMESTRE`
+**Turma 15 - 2023/1**
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma plataforma/rede social para as pessoas reencontrarem o prazer do hábito da leitura. 
+
+Cadastre, compartilhe e comente sobre os livros que você está lendo com seus amigos. Monte grupos de leitura, defina objetivos e participe de competições divertidas com pessoas de todo o mundo!
 
 ## Integrantes
 
@@ -19,7 +21,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Nome completo do professor 1
+* Prof. Wagner Cipriano da Silva
 
 ## Instruções de utilização
 
