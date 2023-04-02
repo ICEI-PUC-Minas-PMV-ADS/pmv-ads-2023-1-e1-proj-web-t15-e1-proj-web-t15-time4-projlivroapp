@@ -12,19 +12,26 @@ Este projeto procura auxiliar no combate ao crescente enfraquecimento do hábito
 
 ## Objetivos
 
-O objetivo deste trabalho é criar uma plataforma de cadastro, exibição e compartilhamento de todos os aspectos pertinentes ao ato de ler livros, utilizando técnicas de amplificação de engajamento como a gamificação para fomentar um ambiente em que as pessoas reencontrem o prazer da leitura em companhia de amigos e desconhecidos de todo o mundo. 
+O objetivo deste trabalho é criar uma plataforma para o compartilhamento do ato de ler, fomentando um ambiente em que as pessoas reencontrem o prazer dos livros em companhia de amigos e desconhecidos de todo o mundo. 
 
 Como objetivos específicos, podemos ressaltar: 
+
+- Empregar técnicas de gamificação para a criação de um espaço virtual lúdico e cativante;
+- Utilizar estratégias de amplificação de engajamento (como impulsionamento de conteúdos mais compartilhados, comuns no atual estado da arte de soluções semelhantes);
+- Integrar algumas funcionalidades com redes sociais conhecidas, alavancando a presença já existente dos usuários nelas.
+
 
 ## Justificativa
 
 Dados da 5ª edição da pesquisa Retratos da Leitura no Brasil indicam uma queda de 4,6 milhões entre as pessoas que se declaram leitoras entre os anos de 2015 e 2019. Indicadores do mesmo levantamento também apontam possíveis causas: quando perguntadas sobre o que gostam de fazer em seu tempo livre, 66% diziam usar a internet, 62% o aplicativo WhatsApp e 44% outras redes sociais como Facebook, Twitter ou Instagram. Indivíduos que declaram ler livros em papel ou digitais somam 24%. 
 
-O segundo livro da neurocientista cognitiva americana Maryanne Wolf, intitulado "O Cérebro no Mundo Digital - Os desafios da leitura na nossa era" (ed. Contexto), juntamente com diversas pesquisas sobre o assunto, indica que a leitura cada vez mais frequente em telas, em detrimento do papel, bem como a prática crescente de simplesmente "passar os olhos", ou seja, ler superficialmente múltiplos textos e postagens online, podem estar comprometendo nossa habilidade de compreender argumentos complexos, analisar criticamente o que lemos e até mesmo demonstrar empatia por perspectivas diferentes das nossas. É evidente, portanto, que as redes sociais atuais, com sua ênfase na superficialidade, contribuem para a deterioração da nossa capacidade argumentativa. 
+O segundo livro da neurocientista cognitiva americana Maryanne Wolf, intitulado "O Cérebro no Mundo Digital - Os desafios da leitura na nossa era" (ed. Contexto), juntamente com diversas pesquisas sobre o assunto, indica que a leitura cada vez mais frequente em telas, em detrimento do papel, bem como a prática crescente de simplesmente "passar os olhos", ou seja, ler superficialmente múltiplos textos e postagens online, podem estar comprometendo nossa habilidade de compreender argumentos complexos, analisar criticamente o que lemos e até mesmo demonstrar empatia por perspectivas diferentes das nossas. É evidente, portanto, que as redes sociais atuais, com sua ênfase na superficialidade, contribuem para a deterioração da nossa capacidade argumentativa.
+
+Esperamos com este trabalho contribuir para um melhor direcionamento destas questões na hiperconectada sociedade atual.
 
 ## Público-Alvo
 
-Tanto leitores frequentes como pessoas que desejam tornar a leitura parte de sua rotina diária (mesmo que seja necessário fomentar este desejo) são o público-alvo desta solução.  
+Tanto leitores frequentes como pessoas que desejam tornar a leitura parte de sua rotina diária (mesmo que seja necessário fomentar ou despertar novamente este desejo) são o público-alvo desta solução.  
 
-Este grupo em foco tem idade predominante entre 16 e 30 anos e utiliza-se com grande frequência de redes sociais (acessando-as principalmente de dispositivos móveis). Pesquisa realizada durante este trabalho também mostra o emprego de aplicativos educacionais, bem como a predominância de games como atividade de lazer. 
+Inicialmente o grupo em foco teria idade predominante entre 16 e 30 anos e utilizaria com grande frequência redes sociais (acessando-as principalmente de dispositivos móveis). Pesquisa realizada durante este trabalho ampliou esta visão também mostrou o emprego comum de aplicativos educacionais, bem como a predominância de games como atividade de lazer. 
 
