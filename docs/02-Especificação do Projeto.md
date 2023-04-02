@@ -77,22 +77,14 @@ desenvolvimento do projeto.
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR`                |
-|----------------------|------------------------------------|----------------------------------------|
-| Usuarios do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-la                 |
-| Administrador        | Alterar permissões                 | Permitir que possam administrar contas |
+| EU COMO...       | QUERO/PRECISO ...                                                                         | PARA ...                                                                        |
+|------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| Tatiana Loureiro | compartilhar o progresso num romance incrível que comecei a ler recentemente              | se sentir ainda mais empolgada em terminá-lo com o _feedback_ dos meus amigos   |
+| Andrey Jardim    | saber o que meus amigos estão lendo ultimamente (e curtindo)                              | se inspirar, voltar a ler e se sentir mais produtivo no meu tempo livre         |
+| Andrey Jardim    | orientar e acompanhar o pessoal do trabalho na leitura de uma nova obra técnica requerida | ajudar na formação dos colegas, tornando o trabalho de todos mais eficiente     |
+| Tatiana Loureiro | mostrar aos meus amigos o novo livro de mistério que estou querendo comprar               | fixar mentalmente o objetivo de lê-lo ou mesmo ganhá-lo de presente do namorado |
+| Tatiana Loureiro | receber dicas de livros disponíveis gratuitamente                                         | ler coisas legais sem gastar (quase) nada                                       |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário
-consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua
-aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte
-do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -130,7 +122,3 @@ projeto em questão são apresentadas na tabela a seguir.
 | 02 | A equipe não pode subcontratar o desenvolvimento do aplicativo.                                            |
 | 03 | O aplicativo deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 12/07/2023. |
 | 04 | O aplicativo deve utilizar as linguagens mais aplicadas atualmente na Web.                                 |
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
