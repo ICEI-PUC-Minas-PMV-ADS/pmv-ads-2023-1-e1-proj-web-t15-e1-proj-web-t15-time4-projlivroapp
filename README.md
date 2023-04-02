@@ -1,10 +1,10 @@
-# Projeto Livro App (nome provisório)
+# Plataforma de compartilhamento de leituras online com gamificação
 
-**Curso de Tecnologia em Análise e Desenvolvimento de Sistemas**
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-**Disciplina: Desenvolvimento de Aplicação Web Front-End**
+`Projeto de Desenvolvimento de Aplicação Web Front-End`
 
-**Turma 15 - 2023/1**
+`Eixo 1 - 2023/1 - Turma 15`
 
 Uma plataforma/rede social para as pessoas reencontrarem o prazer do hábito da leitura. 
 
@@ -53,4 +53,4 @@ _[Insira o endereço eletrônico público de acesso ao conteúdo publicado.]_
 
 # Armazenamento da Apresentação
 
-* <a href="presentation/README.md">Apresentação da solução</a>
+* <a href="https://www.canva.com/design/DAFebST_LQg/whf-kgGsU9GiFqQMtaJHHg/edit?utm_content=DAFebST_LQg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Link para a apresentação na plataforma Canva</a>
