@@ -33,5 +33,5 @@ Esperamos com este trabalho contribuir para um melhor direcionamento destas ques
 
 Tanto leitores frequentes como pessoas que desejam tornar a leitura parte de sua rotina diária (mesmo que seja necessário fomentar ou despertar novamente este desejo) são o público-alvo desta solução.  
 
-Inicialmente o grupo em foco teria idade predominante entre 16 e 30 anos e utilizaria com grande frequência redes sociais (acessando-as principalmente de dispositivos móveis). Pesquisa realizada durante este trabalho ampliou esta visão, como também mostrou o emprego comum de aplicativos educacionais, bem como a predominância de games como atividade de lazer. 
+Inicialmente o grupo em foco teria idade predominante entre 16 e 30 anos e utilizaria com grande frequência redes sociais (acessando-as principalmente de dispositivos móveis). Pesquisa realizada durante este trabalho ampliou esta visão, como também mostrou o emprego comum de aplicativos educacionais e a predominância de games como atividade de lazer. 
 
