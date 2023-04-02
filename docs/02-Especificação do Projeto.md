@@ -94,22 +94,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID    | Descrição do Requisito                                                                                                                           | Prioridade |
 |-------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-01 | A plataforma deve permitir ao usuário criar uma conta e fazer login.                                                                             | ALTA       | 
-| RF-02 | A plataforma deve conter um espaço para notas e comentários para cada título.                                                                    | ALTA       |
-| RF-03 | A plataforma deve permitir que o usuário compartilhe seu progresso de leitura na própria plataforma e/ou em integração com outras redes sociais. | ALTA       | 
-| RF-04 | A plataforma deve permitir que o usuário crie grupos de leituras.                                                                                | ALTA       | 
-| RF-05 | A plataforma deve permitir que o usuário crie wishlists.                                                                                         | MÉDIA      | 
-| RF-06 | A plataforma deve ter uma seção de links/pesquisas que estão disponíveis gratuitamente (sem direitos autorais).                                  | ALTA       | 
-| RF-07 | A plataforma deve fazer indicações de leitura com base no perfil do usuário.                                                                     | MÉDIA      | 
-| RF-08 | O uso das funcionalidades poderá ser feito apenas para usuários registrados na plataforma.                                                       | ALTA       | 
+| RF01 | A plataforma deve permitir ao usuário criar uma conta e fazer login.                                                                             | ALTA       | 
+| RF02 | A plataforma deve conter um espaço para notas e comentários para cada título.                                                                    | ALTA       |
+| RF03 | A plataforma deve permitir que o usuário compartilhe seu progresso de leitura na própria plataforma e/ou em integração com outras redes sociais. | ALTA       | 
+| RF04 | A plataforma deve permitir que o usuário crie grupos de leituras.                                                                                | ALTA       | 
+| RF05 | A plataforma deve permitir que o usuário crie wishlists.                                                                                         | MÉDIA      | 
+| RF06 | A plataforma deve ter uma seção de links/pesquisas que estão disponíveis gratuitamente (sem direitos autorais).                                  | ALTA       | 
+| RF07 | A plataforma deve fazer indicações de leitura com base no perfil do usuário.                                                                     | MÉDIA      | 
+| RF08 | O uso das funcionalidades poderá ser feito apenas para usuários registrados na plataforma.                                                       | ALTA       | 
 
-### Requisitos não Funcionais
+### Requisitos Não-Funcionais
 
 | ID     | Descrição do Requisito                                                                                       | Prioridade |
 |--------|--------------------------------------------------------------------------------------------------------------|------------|
-| RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet.                                 | ALTA       | 
-| RNF-02 | O site deverá ser responsivo permitindo a visualização em qualquer dispositivo de forma adequada.            | ALTA       | 
-| RNF-03 | O site deve ser compatível com os principais navegadores de mercado (Google Chrome, Firefox, Microsoft Edge. | ALTA       | 
+| RNF01 | O site deve ser publicado em um ambiente acessível publicamente na Internet.                                 | ALTA       | 
+| RNF02 | O site deverá ser responsivo permitindo a visualização em qualquer dispositivo de forma adequada.            | ALTA       | 
+| RNF03 | O site deve ser compatível com os principais navegadores de mercado (Google Chrome, Firefox, Microsoft Edge. | ALTA       | 
 
 ## Restrições
 
