@@ -8,7 +8,9 @@
 
 Uma plataforma/rede social para as pessoas reencontrarem o prazer do hábito da leitura. 
 
-Cadastre, compartilhe e comente sobre os livros que você está lendo com seus amigos. Monte grupos de leitura, defina objetivos e participe de competições divertidas com pessoas de todo o mundo!
+Cadastre, compartilhe e comente sobre os livros que você está lendo com seus amigos. 
+
+Monte grupos de leitura, defina objetivos e participe de competições divertidas com pessoas de todo o mundo!
 
 ## Integrantes
 
