@@ -25,7 +25,7 @@ Os papéis acordados dentro da equipe foram os seguintes:
 | Gerenciamento do Projeto (Kanban) | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362) |
 | Repositório de código-fonte       | GitHub                                                                         | 
 | Documentos do projeto             | GitHub                                                                         | 
-| Projeto de Interface e Wireframes | _(A definir)_                                                                  | 
+| Projeto de Interface e Wireframes | Figma                                                                          | 
 | Comunicação                       | Microsoft Teams, Whatsapp                                                      | 
 
 
@@ -43,11 +43,11 @@ Os papéis acordados dentro da equipe foram os seguintes:
 ### 3.2 Sprint 1
 
 #### 3.2.1 Planejamento
-_[TBA]_
+_[A definir]_
 
 #### 3.2.2 Execução
-_[TBA]_
+_[A definir]_
 
 #### 3.2.3 Evidências
-_[TBA]_
+_[A definir]_
 
