@@ -1,4 +1,4 @@
-# Plataforma de compartilhamento de leituras online com gamificação
+# ReadIn
 
 `Tecnologia em Análise e Desenvolvimento de Sistemas`
 
