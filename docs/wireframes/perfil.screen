@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Browser" id="278" x="288" y="208" width="1137" height="873" text="Browser&#xA;http://www.readin.com/perfil" measuredWidth="1137" measuredHeight="873">
@@ -153,3 +154,152 @@
   <vRuler/>
   <font size="12px"/>
 </model:Screen>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="278" x="288" y="208" width="1137" height="873" text="Browser&#xA;http://www.readin.com" measuredWidth="1137" measuredHeight="873">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="13" x="1251" y="285" text="Pesquisar em perfil" measuredWidth="131" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="514" y="320" measuredWidth="88" measuredHeight="88" name="Foto do perfil">
+    <widgets xsi:type="model:Panel" id="11" width="88" height="88" measuredWidth="88" measuredHeight="88"/>
+    <widgets xsi:type="model:Icon" id="4" x="18" y="14" width="50" height="57" measuredWidth="50" measuredHeight="57" icon="user (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="206" x="635" y="320" width="177" height="27" text="Victor Beltrão" measuredWidth="177" measuredHeight="27">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="209" x="526" y="413" text="Editar perfil" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="215" x="633" y="350" measuredWidth="193" measuredHeight="297">
+    <widgets xsi:type="model:Panel" id="212" width="193" height="297" measuredWidth="193" measuredHeight="297"/>
+    <widgets xsi:type="model:Text" id="210" x="12" y="10" text="Bio" measuredWidth="27" measuredHeight="23">
+      <font size="17px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="211" x="12" y="39" width="169" height="241" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="169" measuredHeight="241">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="255" x="979" y="336" measuredWidth="312" measuredHeight="276">
+    <widgets xsi:type="model:Panel" id="253" width="312" height="276" measuredWidth="312" measuredHeight="276"/>
+    <widgets xsi:type="model:Text" id="217" x="21" y="18" width="201" height="32" measuredWidth="201" measuredHeight="32">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Placeholder" id="224" x="21" y="62" width="56" height="56" measuredWidth="56" measuredHeight="56"/>
+    <widgets xsi:type="model:Label" id="225" x="93" y="49" text="O Astronauta" measuredWidth="169" measuredHeight="46">
+      <font size="28px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="226" x="92" y="94" text="Jaroslav Kalfar, 2022" measuredWidth="171" measuredHeight="25">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:Placeholder" id="227" x="21" y="167" width="56" height="56" measuredWidth="56" measuredHeight="56"/>
+    <widgets xsi:type="model:Label" id="228" x="93" y="155" text="Verity" measuredWidth="76" measuredHeight="46">
+      <font size="28px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="229" x="93" y="202" text="Colleen Hoover, 2018" measuredWidth="180" measuredHeight="25">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:ProgressBar" id="233" x="21" y="122" width="241" height="22" measuredWidth="241" measuredHeight="22"/>
+    <widgets xsi:type="model:ProgressBar" id="234" x="21" y="232" width="241" height="22" measuredWidth="241" measuredHeight="22"/>
+    <widgets xsi:type="model:Link" id="256" x="21" y="16" text="Minhas leituras:" measuredWidth="138" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="298" x="504" y="670" measuredWidth="868" measuredHeight="178">
+    <widgets xsi:type="model:Panel" id="257" width="868" height="178" measuredWidth="868" measuredHeight="178"/>
+    <widgets xsi:type="model:Placeholder" id="249" x="44" y="66" width="104" height="88" measuredWidth="104" measuredHeight="88"/>
+    <widgets xsi:type="model:Link" id="251" x="161" y="69" text="Amantes da ficção" measuredWidth="129" measuredHeight="29">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="252" x="161" y="106" text="6022 membros" measuredWidth="100" measuredHeight="20">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Placeholder" id="258" x="545" y="66" width="104" height="88" measuredWidth="104" measuredHeight="88"/>
+    <widgets xsi:type="model:Link" id="259" x="662" y="69" text="Loucos por romance" measuredWidth="145" measuredHeight="29">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="260" x="662" y="106" text="418 membros" measuredWidth="92" measuredHeight="20">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="261" x="19" y="13" text="Grupos de leitura:" measuredWidth="158" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="299" x="504" y="864" measuredWidth="868" measuredHeight="178">
+    <widgets xsi:type="model:Panel" id="267" width="868" height="178" measuredWidth="868" measuredHeight="178"/>
+    <widgets xsi:type="model:Label" id="263" x="19" y="10" text="Amigos:" measuredWidth="91" measuredHeight="40">
+      <font size="24px"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="268" x="32" y="56" measuredWidth="100" measuredHeight="100">
+      <widgets xsi:type="model:Shape" id="264" measuredWidth="100" measuredHeight="100">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="265" x="1" width="97" height="92" measuredWidth="97" measuredHeight="92" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="266" x="147" y="89" text="Ana Clara " measuredWidth="90" measuredHeight="33">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="269" x="342" y="54" measuredWidth="100" measuredHeight="100">
+      <widgets xsi:type="model:Shape" id="270" measuredWidth="100" measuredHeight="100">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="271" x="1" width="97" height="92" measuredWidth="97" measuredHeight="92" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="272" x="454" y="88" text="Michel Faria" measuredWidth="105" measuredHeight="33">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="273" x="648" y="55" measuredWidth="100" measuredHeight="100">
+      <widgets xsi:type="model:Shape" id="274" measuredWidth="100" measuredHeight="100">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="275" x="1" width="97" height="92" measuredWidth="97" measuredHeight="92" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="276" x="759" y="89" text="Pablo" measuredWidth="50" measuredHeight="33">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="277" x="794" y="143" text="Ver mais" measuredWidth="64" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="293" x="1408" y="270" height="801" measuredWidth="17" measuredHeight="801"/>
+  <widgets xsi:type="model:VSplitter" id="301" x="464" y="270" height="801" measuredWidth="11" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="302" x="320" y="270" text="ReadIn" measuredWidth="135" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="303" x="350" y="352" measuredWidth="60" measuredHeight="54">
+    <widgets xsi:type="model:Icon" id="304" x="14" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Label" id="305" y="31" text="Meu perfil" measuredWidth="60" measuredHeight="23" textAlignment="Center">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="306" x="332" y="431" measuredWidth="96" measuredHeight="63">
+    <widgets xsi:type="model:Icon" id="307" x="32" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
+    <widgets xsi:type="model:Label" id="308" y="40" text="Grupos de leitura" measuredWidth="96" measuredHeight="23" textAlignment="Center">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="309" x="354" y="522" measuredWidth="52" measuredHeight="54">
+    <widgets xsi:type="model:Icon" id="310" x="10" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
+    <widgets xsi:type="model:Label" id="311" y="31" text="Wishlists" measuredWidth="52" measuredHeight="23" textAlignment="Center">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="312" x="337" y="608" measuredWidth="86" measuredHeight="63">
+    <widgets xsi:type="model:Icon" id="313" x="27" measuredWidth="32" measuredHeight="32" icon="book (large)"/>
+    <widgets xsi:type="model:Label" id="314" y="40" text="Minhas leituras" measuredWidth="86" measuredHeight="23" textAlignment="Center">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="315" x="356" y="707" measuredWidth="47" measuredHeight="54">
+    <widgets xsi:type="model:Icon" id="316" x="8" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="317" y="31" text="&quot;Game&quot;" measuredWidth="47" measuredHeight="23" textAlignment="Center">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
+>>>>>>> 7bb0dbf75968a7c92ffebcf796e95a49fc51fd02
