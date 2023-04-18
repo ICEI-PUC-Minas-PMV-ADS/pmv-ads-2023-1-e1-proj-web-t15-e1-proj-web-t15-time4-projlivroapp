@@ -99,7 +99,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF03 | A plataforma deve permitir que o usuário compartilhe seu progresso de leitura na própria plataforma e/ou em integração com outras redes sociais. | ALTA       | 
 | RF04 | A plataforma deve permitir que o usuário crie grupos de leituras.                                                                                | ALTA       | 
 | RF05 | A plataforma deve permitir que o usuário crie wishlists.                                                                                         | MÉDIA      | 
-| RF06 | A plataforma deve ter uma seção de links/pesquisas que estão disponíveis gratuitamente (sem direitos autorais).                                  | ALTA       | 
+| RF06 | A plataforma deve ter uma seção de links/pesquisas que estão disponíveis gratuitamente (sem direitos autorais).                                  | BAIXA      | 
 | RF07 | A plataforma deve fazer indicações de leitura com base no perfil do usuário.                                                                     | MÉDIA      | 
 | RF08 | O uso das funcionalidades poderá ser feito apenas para usuários registrados na plataforma.                                                       | ALTA       | 
 
