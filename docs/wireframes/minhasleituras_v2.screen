@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="-16" y="-8" width="1209" height="761" text="Browser&#xA;http://www.readin.com/minhas-leituras" measuredWidth="1209" measuredHeight="761">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="10" y="86" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="24" y="228" measuredWidth="63" measuredHeight="54">
+    <widgets xsi:type="model:Icon" id="22" x="21" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Label" id="23" y="31" text="Meu perfil" measuredWidth="63" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="24" x="5" y="308" measuredWidth="101" measuredHeight="63">
+    <widgets xsi:type="model:Icon" id="25" x="45" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
+    <widgets xsi:type="model:Label" id="26" y="40" text="Grupos de leitura" measuredWidth="101" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="27" x="29" y="388" measuredWidth="53" measuredHeight="54">
+    <widgets xsi:type="model:Icon" id="28" x="18" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
+    <widgets xsi:type="model:Label" id="29" y="31" text="Wishlists" measuredWidth="53" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="16" y="468" measuredWidth="99" measuredHeight="59">
+    <widgets xsi:type="model:Icon" id="31" x="32" width="36" height="28" measuredWidth="36" measuredHeight="28" icon="book (large)"/>
+    <widgets xsi:type="model:Label" id="32" y="36" width="99" text="Minhas leituras" measuredWidth="99" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="33" x="40" y="556" measuredWidth="47" measuredHeight="54">
+    <widgets xsi:type="model:Icon" id="34" x="10" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="35" y="31" text="&quot;Game&quot;" measuredWidth="47" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:VSplitter" id="36" x="160" y="56" height="673" measuredWidth="11" measuredHeight="673"/>
+  <widgets xsi:type="model:Icon" id="37" x="193" y="84" width="73" height="62" measuredWidth="73" measuredHeight="62" icon="book (large)"/>
+  <widgets xsi:type="model:TextField" id="44" x="284" y="100" text="Minhas leituras" measuredWidth="146" measuredHeight="29">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="49" x="906" y="90" width="173" text="Pesquisar título ou autor" measuredWidth="173" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="28" y="160" measuredWidth="71" measuredHeight="55">
+    <widgets xsi:type="model:Icon" id="54" x="20" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+    <widgets xsi:type="model:Text" id="55" y="40" text="Página inicial" measuredWidth="71" measuredHeight="15">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Button" id="83" x="1090" y="89" text="Cadastrar " measuredWidth="75" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="99" x="730" y="89" text="Cadastrar nova leitura" measuredWidth="165" measuredHeight="25">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="97" x="193" y="179" width="456" height="254" measuredWidth="456" measuredHeight="254"/>
+  <widgets xsi:type="model:Image" id="60" x="208" y="192" width="113" height="108" measuredWidth="113" measuredHeight="108"/>
+  <widgets xsi:type="model:WidgetGroup" id="145" x="338" y="236" measuredWidth="292" measuredHeight="65">
+    <widgets xsi:type="model:Group" id="121" width="292" height="65" text="Progresso" measuredWidth="292" measuredHeight="65">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="122" x="15" y="26" text="*Finalizado!*" measuredWidth="67" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="127" x="260" y="13" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/linkedin-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="129" x="222" y="13" width="19" height="17" measuredWidth="19" measuredHeight="17" icon="assets/twitter-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="130" x="241" y="13" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/facebook-alt (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="146" x="160" y="222" width="89" height="97" measuredWidth="89" measuredHeight="97" icon="assets/fa-award (large)"/>
+  <widgets xsi:type="model:Label" id="151" x="208" y="328" width="337" text="*18/04/2023 14:15* - Comecei e não parei até acabar! Lindo!" measuredWidth="337" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="154" x="208" y="368" width="351" height="41" text="_Adicionar nota_&#xA;" measuredWidth="351" measuredHeight="41">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="155" x="568" y="376" text="Salvar" measuredWidth="52" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="158" x="194" y="455" width="456" height="254" measuredWidth="456" measuredHeight="254"/>
+  <widgets xsi:type="model:Image" id="159" x="209" y="468" width="113" height="108" measuredWidth="113" measuredHeight="108"/>
+  <widgets xsi:type="model:WidgetGroup" id="162" x="339" y="512" measuredWidth="292" measuredHeight="65">
+    <widgets xsi:type="model:Group" id="163" width="292" height="65" text="Progresso" measuredWidth="292" measuredHeight="65">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="164" x="15" y="26" text="*Na wishlist!*" measuredWidth="71" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="165" x="260" y="13" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/linkedin-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="166" x="222" y="13" width="19" height="17" measuredWidth="19" measuredHeight="17" icon="assets/twitter-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="167" x="241" y="13" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/facebook-alt (large)"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="170" x="209" y="629" width="351" height="41" text="_Adicionar nota_&#xA;" measuredWidth="351" measuredHeight="41">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="171" x="569" y="637" text="Salvar" measuredWidth="52" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="176" x="160" y="494" width="88" height="81" measuredWidth="88" measuredHeight="81" icon="assets/fa-heart-o (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="91" x="708" y="179" measuredWidth="456" measuredHeight="254">
+    <widgets xsi:type="model:Panel" id="90" width="456" height="254" measuredWidth="456" measuredHeight="254"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="68" x="723" y="190" width="115" measuredWidth="115" measuredHeight="100"/>
+  <widgets xsi:type="model:TextArea" id="73" x="724" y="364" width="351" height="41" text="_Adicionar nota_&#xA;" measuredWidth="351" measuredHeight="41">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="147" x="863" y="217" measuredWidth="292" measuredHeight="91">
+    <widgets xsi:type="model:Group" id="102" width="292" height="91" text="Progresso" measuredWidth="292" measuredHeight="91">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:HSlider" id="103" x="11" y="48" width="163" measuredWidth="163" measuredHeight="17"/>
+    <widgets xsi:type="model:Label" id="104" x="183" y="45" width="33" text="25%" measuredWidth="33" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="109" x="222" y="52" width="58" text="Salvar" measuredWidth="58" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="136" x="260" y="17" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/linkedin-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="137" x="222" y="17" width="19" height="17" measuredWidth="19" measuredHeight="17" icon="assets/twitter-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="138" x="241" y="17" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/facebook-alt (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="149" x="724" y="328" width="319" text="*18/04/2023 14:15* - O capítulo 2 foi de cair o queixo!!!" measuredWidth="319" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="150" x="1084" y="372" text="Salvar" measuredWidth="52" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="177" x="668" y="210" width="97" height="90" measuredWidth="97" measuredHeight="90" icon="assets/fa-glasses (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="180" x="712" y="456" measuredWidth="456" measuredHeight="254">
+    <widgets xsi:type="model:Panel" id="181" width="456" height="254" measuredWidth="456" measuredHeight="254"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="182" x="727" y="467" width="115" measuredWidth="115" measuredHeight="100"/>
+  <widgets xsi:type="model:TextArea" id="184" x="728" y="641" width="351" height="41" text="_Adicionar nota_&#xA;" measuredWidth="351" measuredHeight="41">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="194" x="728" y="605" width="319" text="*18/04/2023 14:15* - O capítulo 2 foi de cair o queixo!!!" measuredWidth="319" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="195" x="1088" y="649" text="Salvar" measuredWidth="52" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="196" x="672" y="487" width="97" height="90" measuredWidth="97" measuredHeight="90" icon="assets/fa-glasses (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="197" x="865" y="503" measuredWidth="292" measuredHeight="84">
+    <widgets xsi:type="model:Group" id="114" width="292" height="84" text="Progresso" measuredWidth="292" measuredHeight="84">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="115" x="92" y="33" width="100" text="Capítulo 3" measuredWidth="100" measuredHeight="22">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="116" x="230" y="48" text="Salvar" measuredWidth="52" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="120" x="11" y="32" text="Lendo agora:" measuredWidth="77" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="142" x="260" y="17" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/linkedin-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="143" x="222" y="17" width="19" height="17" measuredWidth="19" measuredHeight="17" icon="assets/twitter-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="144" x="241" y="17" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/facebook-alt (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="198" x="865" y="467" text="Dom Casmurro (M. de Assis)" measuredWidth="201" measuredHeight="25">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="199" x="865" y="187" text="Duna (F. Herbert)" measuredWidth="127" measuredHeight="25">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="200" x="339" y="470" text="As esganadas (J. Soares)" measuredWidth="177" measuredHeight="25">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="201" x="338" y="198" text="Livro do Desassosego (F. Pessoa)" measuredWidth="235" measuredHeight="25">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="202" x="1192" y="-8" width="292" height="761" text="*Observações*&#xA;&#xA;&#xA;1 - Selos grandes denotando claramente o status da leitura (lendo, wishlist ou lido)&#xA;&#xA;2 - Links para detalhe do livro&#xA;&#xA;3 - Pesquisa por título ou autor abr a popup de detalhes para usuário escolher a forma de acompanhar o progresso&#xA;&#xA;4 - Não é necessario botão de compartilhar nota dentro da plataforma, já que isso será automático (como um tweet)&#xA;&#xA;5 - Múltiplas formas de denotar progresso. A forma é escolhida quando o usuário cadastra a leitura.&#xA;Outra forma de acompanhar progresso:&#xA;" measuredWidth="292" measuredHeight="761" annotation="false" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="148" x="1190" y="296" measuredWidth="292" measuredHeight="84">
+    <widgets xsi:type="model:Group" id="112" width="292" height="84" text="Progresso" measuredWidth="292" measuredHeight="84">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Spinner" id="105" x="104" y="37" text="42" measuredWidth="39" measuredHeight="22">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="106" x="9" y="37" text="Parei na página:" measuredWidth="92" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="107" x="149" y="36" text="de 360" measuredWidth="44" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="113" x="225" y="46" text="Salvar" measuredWidth="52" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="139" x="257" y="16" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/linkedin-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="140" x="219" y="16" width="19" height="17" measuredWidth="19" measuredHeight="17" icon="assets/twitter-alt (large)"/>
+    <widgets xsi:type="model:Icon" id="141" x="238" y="16" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/facebook-alt (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="203" x="170" y="274" text="1" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="204" x="940" y="213" text="5" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="205" x="573" y="197" text="2" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="206" x="1065" y="102" text="3" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="207" x="1042" y="396" text="4" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="208" x="940" y="501" text="5" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <hRuler>
+    <guides position="1287"/>
+    <guides position="-17"/>
+  </hRuler>
+  <vRuler>
+    <guides/>
+    <guides position="237"/>
+  </vRuler>
+  <font size="12px"/>
+</model:Screen>
