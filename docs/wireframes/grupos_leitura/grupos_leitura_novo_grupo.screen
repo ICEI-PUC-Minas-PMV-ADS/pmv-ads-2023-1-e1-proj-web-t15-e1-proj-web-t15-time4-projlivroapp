@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="12" y="16" width="1137" height="873" text="Browser&#xA;http://www.readin.com" measuredWidth="1137" measuredHeight="873">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VSplitter" id="15" x="168" y="62" height="801" measuredWidth="11" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="16" x="12" y="64" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="40" y="144" measuredWidth="74" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="26" x="21" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Label" id="27" y="31" text="Meu perfil" measuredWidth="74" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="16" y="224" measuredWidth="122" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="30" x="45" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
+    <widgets xsi:type="model:Label" id="31" y="40" text="Grupos de leitura" measuredWidth="122" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="32" x="1136" width="265" height="881" text="*Observações*&#xA;&#xA;&#xA;1 - Carrossel mostrando grupos aos quais o usuário já pertence" measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="43" y="312" measuredWidth="67" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="35" x="18" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
+    <widgets xsi:type="model:Label" id="36" y="31" text="Wishlists" measuredWidth="67" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="23" y="400" measuredWidth="108" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="38" x="38" measuredWidth="32" measuredHeight="32" icon="book (large)"/>
+    <widgets xsi:type="model:Label" id="39" y="40" text="Minhas leituras" measuredWidth="108" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="60" x="1120" y="62" height="801" measuredWidth="17" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="70" x="559" y="311" measuredWidth="6" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="120" x="1013" y="77" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
+  <widgets xsi:type="model:Callout" id="145" x="80" y="398" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="146" x="88" y="224" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="200" x="208" y="108" text="Vingadores de Capitu" measuredWidth="147" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="201" x="380" y="108" text="Pythonistas" measuredWidth="82" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="202" x="488" y="107" text="Loucos por romance" measuredWidth="139" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="203" x="296" y="108" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="207" x="644" y="106" text="Amantes da Ficção" measuredWidth="129" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="208" x="724" y="108" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="209" x="793" y="106" text="Eu amo Agatha Christie" measuredWidth="157" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="210" x="956" y="101" text="1" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="211" x="204" y="165" width="779" measuredWidth="779" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="212" x="372" y="90" width="611" measuredWidth="611" measuredHeight="6"/>
+  <widgets xsi:type="model:Group" id="213" x="204" y="249" width="841" height="96" text="*Buscar grupos de leitura*" measuredWidth="841" measuredHeight="96">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="204" x="224" y="282" width="575" measuredWidth="575" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="206" x="808" y="281" text="Buscar" measuredWidth="65" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="219" x="798" y="192" text="Criar novo grupo de leitura" measuredWidth="247" measuredHeight="32" background="#93c47d">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="220" x="202" y="80" text="*Meus grupos de leitura*" measuredWidth="171" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="224" x="899" y="282" text="Opções avançadas" measuredWidth="126" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="226" x="899" y="282" width="126" measuredWidth="126" measuredHeight="30" link="grupos_leitura_opcoes_avancadas.screen"/>
+  <widgets xsi:type="model:Hotspot" id="228" x="202" y="100" width="171" height="61" measuredWidth="171" measuredHeight="61" link="grupos_leitura_detalhe.screen"/>
+  <widgets xsi:type="model:Icon" id="236" x="212" y="477" width="40" height="40" measuredWidth="40" measuredHeight="40" icon="usergroup (large)"/>
+  <widgets xsi:type="model:Label" id="237" x="261" y="475" text="*Pythonistas*" measuredWidth="90" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="238" x="268" y="502" text="123 membros" measuredWidth="71" measuredHeight="21" foreground="#999">
+    <font size="10px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="239" x="380" y="477" text="Grupo para compartilhar leituras e outros materiais sobre Python" measuredWidth="445" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="241" x="384" y="501" text="Um grupo sobre o assunto: Python, Programação" measuredWidth="237" measuredHeight="21" foreground="#999">
+    <font size="10px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="242" x="857" y="480" text="Entrar neste grupo" measuredWidth="145" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="243" x="212" y="555" width="40" height="40" measuredWidth="40" measuredHeight="40" icon="usergroup (large)"/>
+  <widgets xsi:type="model:Label" id="244" x="261" y="549" text="*Loucos por\nRomance*" measuredWidth="83" measuredHeight="42">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="245" x="262" y="587" text="123 membros" measuredWidth="71" measuredHeight="21" foreground="#999">
+    <font size="10px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="246" x="380" y="551" text="Se você adora romance, junte-se a nós!" measuredWidth="263" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="247" x="384" y="576" text="Um grupo sobre o gênero: Romance" measuredWidth="175" measuredHeight="21" foreground="#999">
+    <font size="10px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="248" x="857" y="554" text="Entrar neste grupo" measuredWidth="145" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="249" x="213" y="396" width="40" height="40" measuredWidth="40" measuredHeight="40" icon="usergroup (large)"/>
+  <widgets xsi:type="model:Label" id="250" x="262" y="390" text="*Vingadores \nde Capitu*" measuredWidth="91" measuredHeight="42">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="251" x="263" y="434" text="123 membros" measuredWidth="71" measuredHeight="21" foreground="#999">
+    <font size="10px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="252" x="381" y="392" text="Grupo de seminário dos alunos da PUC para estudo da obra (....)" measuredWidth="432" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="253" x="385" y="417" text="Um grupo sobre o livro: Dom Casmurro (M. de Assis) " measuredWidth="252" measuredHeight="21" foreground="#999">
+    <font size="10px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="254" x="858" y="395" text="Entrar neste grupo" measuredWidth="145" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="256" x="358" y="199" width="555" height="461" text="*Novo grupo de leitura*" measuredWidth="555" measuredHeight="461"/>
+  <widgets xsi:type="model:Label" id="257" x="375" y="241" text="*Nome:*" measuredWidth="52" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="258" x="430" y="241" width="295" measuredWidth="295" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="290" x="375" y="294" measuredWidth="525" measuredHeight="149">
+    <widgets xsi:type="model:Group" id="259" width="525" height="149" text="*Selecione o assunto*" measuredWidth="525" measuredHeight="149">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="260" x="15" y="38" width="409" measuredWidth="409" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="261" x="434" y="38" text="Buscar" measuredWidth="65" measuredHeight="27">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="262" x="15" y="79" text="Livro: Dom Casmurro (M. de Assis)" measuredWidth="251" measuredHeight="25" selected="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="264" x="16" y="108" text="Autor: Machado de Assis" measuredWidth="187" measuredHeight="25" selected="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="265" x="313" y="79" text="Romance" measuredWidth="83" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="266" x="818" y="242" text="Público" measuredWidth="71" measuredHeight="25" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="267" x="373" y="464" width="525" height="127" text="*Convide seus amigos*" measuredWidth="525" measuredHeight="127">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="268" x="783" y="605" width="115" text="Criar" measuredWidth="115" measuredHeight="32" background="#93c47d">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="283" x="391" y="526" measuredWidth="167" measuredHeight="56">
+    <widgets xsi:type="model:Panel" id="279" width="167" height="56" measuredWidth="167" measuredHeight="56"/>
+    <widgets xsi:type="model:Icon" id="275" x="140" y="10" width="16" height="16" measuredWidth="16" measuredHeight="16" icon="delete (large)"/>
+    <widgets xsi:type="model:Icon" id="269" x="8" y="11" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+    <widgets xsi:type="model:Label" id="270" x="51" y="16" text="Rui Dino" measuredWidth="61" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="280" x="392" y="491" width="409" measuredWidth="409" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="281" x="811" y="491" text="Buscar" measuredWidth="65" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="284" x="573" y="526" measuredWidth="167" measuredHeight="56">
+    <widgets xsi:type="model:Panel" id="285" width="167" height="56" measuredWidth="167" measuredHeight="56"/>
+    <widgets xsi:type="model:Icon" id="286" x="140" y="10" width="16" height="16" measuredWidth="16" measuredHeight="16" icon="delete (large)"/>
+    <widgets xsi:type="model:Icon" id="287" x="8" y="11" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+    <widgets xsi:type="model:Label" id="288" x="51" y="16" text="Flávio Costa " measuredWidth="90" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="291" x="882" y="199" width="31" height="24" measuredWidth="31" measuredHeight="24" link="grupos_leitura.screen"/>
+  <widgets xsi:type="model:Hotspot" id="293" x="784" y="609" width="114" height="24" measuredWidth="114" measuredHeight="24" link="grupos_leitura.screen"/>
+  <widgets xsi:type="model:WidgetGroup" id="294" x="24" y="498" measuredWidth="99" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="295" x="29" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="296" y="31" text="ReadInQuests" measuredWidth="99" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="659"/>
+  </vRuler>
+  <font size="14px"/>
+</model:Screen>

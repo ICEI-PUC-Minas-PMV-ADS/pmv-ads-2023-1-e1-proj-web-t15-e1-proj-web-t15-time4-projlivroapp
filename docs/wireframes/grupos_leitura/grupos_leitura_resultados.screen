@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="12" width="1137" height="873" text="Browser&#xA;http://www.readin.com" measuredWidth="1137" measuredHeight="873">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VSplitter" id="15" x="168" y="62" height="801" measuredWidth="11" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="16" x="12" y="64" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="40" y="144" measuredWidth="74" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="26" x="21" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Label" id="27" y="31" text="Meu perfil" measuredWidth="74" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="16" y="224" measuredWidth="122" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="30" x="45" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
+    <widgets xsi:type="model:Label" id="31" y="40" text="Grupos de leitura" measuredWidth="122" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="32" x="1136" width="265" height="881" text="*Observações*&#xA;&#xA;&#xA;1 - Carrossel mostrando grupos aos quais o usuário já pertence" measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="43" y="312" measuredWidth="67" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="35" x="18" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
+    <widgets xsi:type="model:Label" id="36" y="31" text="Wishlists" measuredWidth="67" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="23" y="400" measuredWidth="108" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="38" x="38" measuredWidth="32" measuredHeight="32" icon="book (large)"/>
+    <widgets xsi:type="model:Label" id="39" y="40" text="Minhas leituras" measuredWidth="108" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="60" x="1120" y="62" height="801" measuredWidth="17" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="70" x="559" y="311" measuredWidth="6" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="120" x="1013" y="77" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
+  <widgets xsi:type="model:Callout" id="145" x="80" y="398" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="146" x="88" y="224" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="200" x="208" y="108" text="Vingadores de Capitu" measuredWidth="147" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="201" x="380" y="108" text="Pythonistas" measuredWidth="82" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="202" x="488" y="107" text="Loucos por romance" measuredWidth="139" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="203" x="296" y="108" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="207" x="644" y="106" text="Amantes da Ficção" measuredWidth="129" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="208" x="724" y="108" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="209" x="793" y="106" text="Eu amo Agatha Christie" measuredWidth="157" measuredHeight="60" textAlignment="Center" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="210" x="956" y="101" text="1" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="211" x="204" y="165" width="779" measuredWidth="779" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="212" x="372" y="90" width="611" measuredWidth="611" measuredHeight="6"/>
+  <widgets xsi:type="model:Group" id="213" x="204" y="249" width="841" height="240" text="*Buscar grupos de leitura*" measuredWidth="841" measuredHeight="240">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="204" x="224" y="282" width="575" measuredWidth="575" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="206" x="808" y="281" text="Buscar" measuredWidth="65" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="214" x="222" y="329" width="803" height="136" text="*Opções avançadas*" measuredWidth="803" measuredHeight="136">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="215" x="235" y="360" text="*Título:*" measuredWidth="53" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="216" x="349" y="360" width="234" measuredWidth="234" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="217" x="235" y="404" text="*Autor:*" measuredWidth="51" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="218" x="349" y="404" width="234" measuredWidth="234" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="219" x="798" y="192" text="Criar novo grupo de leitura" measuredWidth="247" measuredHeight="32" background="#93c47d">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="220" x="202" y="80" text="*Meus grupos de leitura*" measuredWidth="171" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="221" x="751" y="353" text="[x] Ficção&#xA;[ ] Não-ficção&#xA;[ ] Auto-ajuda&#xA;[x] Fantasia" measuredWidth="104" measuredHeight="96" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="104" height="23" text="[x] Ficção"/>
+    <items x="0" y="25" width="104" height="23" text="[ ] Não-ficção"/>
+    <items x="0" y="48" width="104" height="23" text="[ ] Auto-ajuda"/>
+    <items x="0" y="71" width="104" height="23" text="[x] Fantasia"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="222" x="860" y="355" text="[x] Horror&#xA;[ ] Quadrinhos&#xA;[ ] Poesia&#xA;[x] História" measuredWidth="108" measuredHeight="96" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="108" height="23" text="[x] Horror"/>
+    <items x="0" y="25" width="108" height="23" text="[ ] Quadrinhos"/>
+    <items x="0" y="48" width="108" height="23" text="[ ] Poesia"/>
+    <items x="0" y="71" width="108" height="23" text="[x] História"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="223" x="671" y="388" text="*Gêneros:*" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="224" x="899" y="282" text="Opções avançadas" measuredWidth="126" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="225" x="31" y="498" measuredWidth="99" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="226" x="29" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="227" y="31" text="ReadInQuests" measuredWidth="99" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="659"/>
+  </vRuler>
+  <font size="14px"/>
+</model:Screen>
