@@ -103,7 +103,7 @@
       <font size="15px" bold="true"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Text" id="154" x="256" y="760" width="305" height="137" text="Rio, 1938. Um perigoso assassino está à solta nas ruas. Seu alvo: mulheres jovens, bonitas e... gordas. Sua arma: irresistíveis doces portugueses. Com requintes de crueldade gastronômica, ele mata sem piedade suas vítimas, e depois expõe seus cadáveres acintosamente, escarnecendo das autoridades." measuredWidth="305" measuredHeight="137">
+  <widgets xsi:type="model:Text" id="154" x="256" y="758" width="313" height="137" text="Rio, 1938. Um perigoso assassino está à solta nas ruas. Seu alvo: mulheres jovens, bonitas e... gordas. Sua arma: irresistíveis doces portugueses. Com requintes de crueldade gastronômica, ele mata sem piedade suas vítimas, e depois expõe seus cadáveres acintosamente, escarnecendo das autoridades." measuredWidth="313" measuredHeight="137">
     <font size="13px"/>
   </widgets>
   <widgets xsi:type="model:SearchField" id="157" x="856" y="109" width="217" text="Pesquisar título ou autor" measuredWidth="217" measuredHeight="24">
