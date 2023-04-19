@@ -3,9 +3,6 @@
   <widgets xsi:type="model:Browser" id="92" width="1137" height="873" text="Browser&#xA;http://www.readin.com/usuario/beatriz-dias" measuredWidth="1137" measuredHeight="873">
     <font size="14px"/>
   </widgets>
-  <widgets xsi:type="model:SearchField" id="93" x="963" y="77" text="Pesquisar em perfil" measuredWidth="131" measuredHeight="24">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:WidgetGroup" id="94" x="226" y="112" measuredWidth="88" measuredHeight="88" name="Foto do perfil">
     <widgets xsi:type="model:Panel" id="95" width="88" height="88" measuredWidth="88" measuredHeight="88"/>
     <widgets xsi:type="model:Icon" id="96" x="18" y="14" width="50" height="57" measuredWidth="50" measuredHeight="57" icon="user (large)"/>
@@ -43,7 +40,7 @@
     </widgets>
     <widgets xsi:type="model:ProgressBar" id="112" x="21" y="122" width="241" height="22" measuredWidth="241" measuredHeight="22" value="25"/>
     <widgets xsi:type="model:ProgressBar" id="113" x="21" y="232" width="241" height="22" measuredWidth="241" measuredHeight="22" value="11"/>
-    <widgets xsi:type="model:Link" id="114" x="21" y="16" text="Leituras de Beatriz:" measuredWidth="165" measuredHeight="36">
+    <widgets xsi:type="model:Link" id="114" x="35" y="16" text="Leituras recentes de Beatriz:" measuredWidth="242" measuredHeight="36">
       <font size="20px"/>
     </widgets>
     <widgets xsi:type="model:Link" id="174" x="93" y="52" text="The Great Gatsby" measuredWidth="186" measuredHeight="40">
@@ -54,6 +51,12 @@
     </widgets>
     <widgets xsi:type="model:Link" id="179" x="93" y="158" text="It" measuredWidth="17" measuredHeight="40">
       <font size="24px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="184" x="142" y="124" text="25%" measuredWidth="28" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="185" x="142" y="234" text="11%" measuredWidth="27" measuredHeight="21">
+      <font size="11px"/>
     </widgets>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="115" x="216" y="462" measuredWidth="868" measuredHeight="178">
@@ -141,9 +144,9 @@
       <font size="14px"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="155" x="63" y="512" measuredWidth="57" measuredHeight="59">
+  <widgets xsi:type="model:WidgetGroup" id="155" x="60" y="512" measuredWidth="96" measuredHeight="59">
     <widgets xsi:type="model:Icon" id="156" x="13" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
-    <widgets xsi:type="model:Label" id="157" y="31" text="&quot;Game&quot;" measuredWidth="57" measuredHeight="28" textAlignment="Center">
+    <widgets xsi:type="model:Label" id="157" x="-19" y="31" text="ReadInQuests" measuredWidth="96" measuredHeight="28" textAlignment="Center">
       <font size="14px"/>
     </widgets>
   </widgets>
@@ -159,13 +162,14 @@
   <widgets xsi:type="model:Callout" id="170" x="320" y="290" text="1" measuredWidth="25" measuredHeight="25">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Window" id="171" x="1168" y="6" width="168" height="155" text="Mais opções" measuredWidth="168" measuredHeight="155"/>
+  <widgets xsi:type="model:Window" id="171" x="1168" y="6" width="168" height="121" text="Mais opções" measuredWidth="168" measuredHeight="121"/>
   <widgets xsi:type="model:Callout" id="172" x="1344" y="6" text="1" measuredWidth="25" measuredHeight="25">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="173" x="1189" y="36" text="Enviar mensagem&#xD;&#xA;&#xD;&#xA;Reportar usuário&#xD;&#xA;&#xD;&#xA;Bloquear usuário" measuredWidth="125" measuredHeight="105">
+  <widgets xsi:type="model:Text" id="173" x="1192" y="40" text="Reportar usuário&#xD;&#xA;&#xD;&#xA;Bloquear usuário" measuredWidth="119" measuredHeight="63">
     <font size="16px"/>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="180" x="784" y="192" width="185" height="25" measuredWidth="185" measuredHeight="25" link="visualizar%20leitura-outro%20usuario.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
