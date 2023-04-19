@@ -163,18 +163,21 @@
       <widgets xsi:type="model:Group" id="190" width="292" height="84" text="Progresso" measuredWidth="292" measuredHeight="84">
         <font/>
       </widgets>
-      <widgets xsi:type="model:Combo" id="191" x="92" y="33" width="100" text="Capítulo 3" measuredWidth="100" measuredHeight="22">
-        <font/>
-      </widgets>
       <widgets xsi:type="model:Button" id="192" x="230" y="48" text="Salvar" measuredWidth="52" measuredHeight="25">
-        <font/>
-      </widgets>
-      <widgets xsi:type="model:Label" id="193" x="11" y="32" text="Lendo agora:" measuredWidth="77" measuredHeight="23">
         <font/>
       </widgets>
       <widgets xsi:type="model:Icon" id="194" x="260" y="17" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/linkedin-alt (large)"/>
       <widgets xsi:type="model:Icon" id="195" x="222" y="17" width="19" height="17" measuredWidth="19" measuredHeight="17" icon="assets/twitter-alt (large)"/>
       <widgets xsi:type="model:Icon" id="196" x="241" y="17" width="20" height="17" measuredWidth="20" measuredHeight="17" icon="assets/facebook-alt (large)"/>
+      <widgets xsi:type="model:Spinner" id="202" x="105" y="30" text="50" measuredWidth="39" measuredHeight="22">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="203" x="10" y="30" text="Estou na página:" measuredWidth="95" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="204" x="150" y="29" text="de 360" measuredWidth="44" measuredHeight="23">
+        <font/>
+      </widgets>
     </widgets>
     <widgets xsi:type="model:Link" id="197" x="149" y="12" text="Dom Casmurro (M. de Assis)" measuredWidth="201" measuredHeight="25">
       <font size="15px" bold="true"/>
@@ -182,6 +185,8 @@
     <widgets xsi:type="model:Icon" id="198" x="385" width="52" height="50" measuredWidth="52" measuredHeight="50" icon="assets/fa-glasses (large)"/>
   </widgets>
   <widgets xsi:type="model:VScrollbar" id="199" x="1142" y="52" height="866" measuredWidth="17" measuredHeight="866"/>
+  <widgets xsi:type="model:Hotspot" id="200" x="328" y="236" width="249" height="21" measuredWidth="249" measuredHeight="21" link="minhas_leituras_resumo_livro.screen"/>
+  <widgets xsi:type="model:Hotspot" id="201" x="865" y="127" width="169" height="21" measuredWidth="169" measuredHeight="21" link="minhas_leituras_pesquisa_cadastrar_leitura.screen"/>
   <hRuler>
     <guides position="1287"/>
     <guides position="-17"/>

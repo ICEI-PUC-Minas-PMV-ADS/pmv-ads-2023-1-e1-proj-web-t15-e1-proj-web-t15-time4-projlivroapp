@@ -193,6 +193,8 @@
     </widgets>
     <widgets xsi:type="model:VScrollbar" id="105" x="136" y="1" measuredWidth="17" measuredHeight="100"/>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="111" x="861" y="125" width="173" height="23" measuredWidth="173" measuredHeight="23" link="minhas_leituras.screen"/>
+  <widgets xsi:type="model:Hotspot" id="112" x="328" y="236" width="249" height="21" measuredWidth="249" measuredHeight="21" link="minhas_leituras_resumo_livro.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

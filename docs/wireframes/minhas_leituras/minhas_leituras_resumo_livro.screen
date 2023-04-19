@@ -42,7 +42,7 @@
     <widgets xsi:type="model:TextField" id="20" x="316" y="134" text="Minhas leituras" measuredWidth="146" measuredHeight="29">
       <font size="19px" bold="true"/>
     </widgets>
-    <widgets xsi:type="model:SearchField" id="21" x="865" y="124" width="173" text="Fiodor" measuredWidth="173" measuredHeight="24">
+    <widgets xsi:type="model:SearchField" id="21" x="865" y="124" width="173" text="Pesquisar título ou autor" measuredWidth="173" measuredHeight="24">
       <font/>
     </widgets>
     <widgets xsi:type="model:WidgetGroup" id="22" x="39" y="179" measuredWidth="88" measuredHeight="57">
@@ -193,7 +193,10 @@
         </widgets>
       </widgets>
     </widgets>
+    <widgets xsi:type="model:Hotspot" id="127" x="865" y="127" width="169" height="21" measuredWidth="169" measuredHeight="21" link="minhas_leituras_pesquisa_cadastrar_leitura.screen"/>
+    <widgets xsi:type="model:Hotspot" id="128" x="709" y="164" width="26" height="21" measuredWidth="26" measuredHeight="21" link="minhas_leituras.screen"/>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="124" x="722" y="166" width="21" height="16" measuredWidth="21" measuredHeight="16"/>
   <hRuler>
     <guides position="79"/>
   </hRuler>
