@@ -15,7 +15,7 @@
     <widgets xsi:type="model:Text" id="101" x="12" y="10" text="Bio" measuredWidth="27" measuredHeight="23">
       <font size="17px" bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Text" id="102" x="12" y="39" width="169" height="241" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="169" measuredHeight="241">
+    <widgets xsi:type="model:Text" id="102" x="12" y="40" width="169" height="247" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="169" measuredHeight="247">
       <font/>
     </widgets>
   </widgets>
@@ -38,7 +38,7 @@
     <widgets xsi:type="model:Text" id="111" x="93" y="206" width="137" text="Stephen King, 1986" measuredWidth="137" measuredHeight="21">
       <font size="16px"/>
     </widgets>
-    <widgets xsi:type="model:ProgressBar" id="112" x="21" y="122" width="241" height="22" measuredWidth="241" measuredHeight="22" value="25"/>
+    <widgets xsi:type="model:ProgressBar" id="112" x="21" y="127" width="241" height="22" measuredWidth="241" measuredHeight="22" value="25"/>
     <widgets xsi:type="model:ProgressBar" id="113" x="21" y="232" width="241" height="22" measuredWidth="241" measuredHeight="22" value="11"/>
     <widgets xsi:type="model:Link" id="114" x="35" y="16" text="Leituras recentes de Beatriz:" measuredWidth="242" measuredHeight="36">
       <font size="20px"/>
@@ -52,7 +52,7 @@
     <widgets xsi:type="model:Link" id="179" x="93" y="158" text="It" measuredWidth="17" measuredHeight="40">
       <font size="24px"/>
     </widgets>
-    <widgets xsi:type="model:Label" id="184" x="142" y="124" text="25%" measuredWidth="28" measuredHeight="23">
+    <widgets xsi:type="model:Label" id="184" x="142" y="129" text="25%" measuredWidth="28" measuredHeight="23">
       <font/>
     </widgets>
     <widgets xsi:type="model:Label" id="185" x="142" y="234" text="11%" measuredWidth="27" measuredHeight="21">
@@ -150,26 +150,18 @@
       <font size="14px"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Button" id="165" x="226" y="216" text="Adicionar amigo" measuredWidth="108" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="166" x="217" y="216" width="105" height="28" text="Seguir" measuredWidth="105" measuredHeight="28">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="166" x="226" y="253" text="Seguir" measuredWidth="53" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="187" x="216" y="256" width="108" height="28" text="Reportar usuário" measuredWidth="108" measuredHeight="28">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="169" x="226" y="290" text="Mais opções" measuredWidth="86" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="188" x="215" y="296" height="28" text="Bloquear usuário" measuredWidth="109" measuredHeight="28">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Callout" id="170" x="320" y="290" text="1" measuredWidth="25" measuredHeight="25">
-    <font bold="true"/>
+  <widgets xsi:type="model:Note" id="189" x="1212" y="49" width="212" height="235" text="1. o titúlo dos livros levará para uma página de detalhes sobre o livro" measuredWidth="212" measuredHeight="235">
+    <font/>
   </widgets>
-  <widgets xsi:type="model:Window" id="171" x="1168" y="6" width="168" height="121" text="Mais opções" measuredWidth="168" measuredHeight="121"/>
-  <widgets xsi:type="model:Callout" id="172" x="1344" y="6" text="1" measuredWidth="25" measuredHeight="25">
-    <font bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="173" x="1192" y="40" text="Reportar usuário&#xD;&#xA;&#xD;&#xA;Bloquear usuário" measuredWidth="119" measuredHeight="63">
-    <font size="16px"/>
-  </widgets>
-  <widgets xsi:type="model:Hotspot" id="180" x="784" y="192" width="185" height="25" measuredWidth="185" measuredHeight="25" link="visualizar%20leitura-outro%20usuario.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
