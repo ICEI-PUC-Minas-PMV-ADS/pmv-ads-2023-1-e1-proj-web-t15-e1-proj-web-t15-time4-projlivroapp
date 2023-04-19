@@ -211,9 +211,6 @@
   <widgets xsi:type="model:TextArea" id="225" x="364" y="246" width="605" height="219" text="O capítulo 1 foi bastante intenso. &#xA;&#xA;Acho que se conecta muito com questões atuais...&#xA;&#xA;Por exemplo, nas relações interpessoais existe...." measuredWidth="605" measuredHeight="219">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Text" id="226" x="10" y="512" width="200" height="200" text="O capítulo 2 desenvolveu muito a história. Acho que se conecta muito com questões atuais do país..." measuredWidth="200" measuredHeight="200">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Button" id="228" x="972" y="118" text="X" measuredWidth="29" measuredHeight="27">
     <font/>
   </widgets>
