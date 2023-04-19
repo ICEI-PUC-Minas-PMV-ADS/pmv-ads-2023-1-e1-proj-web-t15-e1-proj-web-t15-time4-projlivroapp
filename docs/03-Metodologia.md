@@ -1,8 +1,8 @@
 
 # Metodologia
-A metodologia adotada pela equipe foi o Scrum com as seguintes particularidades:
+A metodologia adotada pela equipe foi o [Scrum](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) com as seguintes particularidades:
 
-- a inspeção diária (_daily meeting_) será na verdade duas vezes por semana, nos encontros do grupo, e em quaisquer outros encontros adicionais que o time entender necessários;
+- a inspeção diária (_daily meeting_) será na verdade duas vezes por semana e em quaisquer outros encontros adicionais que o time entender necessários;
 - a retrospectiva será feita ainda dentro da Sprint (ao final) para a coleta de informações para a seção **Execução** dentro de **Processo** (_ver abaixo_);
 - a review será feita a critério do professor orientador.
 
