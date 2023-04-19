@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="12" width="1137" height="873" text="Browser&#xA;http://www.readin.com" measuredWidth="1137" measuredHeight="873">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VSplitter" id="15" x="168" y="62" height="801" measuredWidth="11" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="16" x="12" y="64" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="40" y="144" measuredWidth="74" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="26" x="21" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Label" id="27" y="31" text="Meu perfil" measuredWidth="74" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="16" y="224" measuredWidth="122" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="30" x="45" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
+    <widgets xsi:type="model:Label" id="31" y="40" text="Grupos de leitura" measuredWidth="122" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="32" x="1136" width="265" height="881" text="*Observações*&#xA;&#xA;&#xA;1 - Grupos poderiam ser sobre um ou mais livros, um autor, um gênero ou sobre nada em específico&#xA;&#xA;2 - Link leva para detalhes do livro&#xA;&#xA;3 - Usuário pode querer ser &quot;seguir&quot; e ser notificado de um post" measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="43" y="312" measuredWidth="67" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="35" x="18" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
+    <widgets xsi:type="model:Label" id="36" y="31" text="Wishlists" measuredWidth="67" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="23" y="400" measuredWidth="108" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="38" x="38" measuredWidth="32" measuredHeight="32" icon="book (large)"/>
+    <widgets xsi:type="model:Label" id="39" y="40" text="Minhas leituras" measuredWidth="108" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="60" x="1120" y="62" height="801" measuredWidth="17" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="70" x="559" y="311" measuredWidth="6" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="120" x="1013" y="77" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
+  <widgets xsi:type="model:Callout" id="145" x="80" y="398" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="146" x="88" y="224" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="147" x="43" y="498" measuredWidth="57" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="148" x="10" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="149" y="31" text="&quot;Game&quot;" measuredWidth="57" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="150" x="95" y="497" text="1" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="161" x="218" y="77" text="Os vingadores de Capitu" measuredWidth="474" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="188" x="224" y="497" measuredWidth="709" measuredHeight="281">
+    <widgets xsi:type="model:Panel" id="175" width="709" height="281" measuredWidth="709" measuredHeight="281"/>
+    <widgets xsi:type="model:Label" id="176" x="10" y="10" text="Postado por Rafael Siqueira 4 horas atrás" measuredWidth="284" measuredHeight="25" foreground="#999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="177" x="17" y="41" text="Quem entendeu essa frase? &quot;Dá-me uma c..." measuredWidth="636" measuredHeight="45">
+      <font size="32px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="178" x="624" y="224" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+    <widgets xsi:type="model:Label" id="179" x="662" y="231" text="1" measuredWidth="14" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="180" x="60" y="224" text="3 Comentários" measuredWidth="104" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="181" x="17" y="91" width="642" height="120" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="642" measuredHeight="120">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="182" x="17" y="219" measuredWidth="32" measuredHeight="32" icon="comments (large)"/>
+    <widgets xsi:type="model:Icon" id="184" x="674" y="11" width="24" height="24" measuredWidth="24" measuredHeight="24" icon="bell (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="185" x="621" y="156" text="Um grupo sobre:" measuredWidth="118" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="189" x="738" y="156" text="Dom Casmurro (M. de Assis)" measuredWidth="192" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="190" x="224" y="152" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
+  <widgets xsi:type="model:Label" id="191" x="266" y="157" text="12 Membros" measuredWidth="90" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="194" x="684" y="173" text="1" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="195" x="929" y="154" text="2" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="197" x="224" y="199" measuredWidth="709" measuredHeight="281">
+    <widgets xsi:type="model:WidgetGroup" id="193" measuredWidth="709" measuredHeight="281">
+      <widgets xsi:type="model:Panel" id="153" width="709" height="281" measuredWidth="709" measuredHeight="281"/>
+      <widgets xsi:type="model:Label" id="154" x="10" y="10" text="Postado por Alice Silveira 4 horas atrás" measuredWidth="268" measuredHeight="25" foreground="#999">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="155" x="17" y="41" text="Discussão amanhã no seminário sobre o livro!" measuredWidth="658" measuredHeight="45">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="156" x="24" y="105" width="642" height="120" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="642" measuredHeight="120">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="157" x="624" y="224" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+      <widgets xsi:type="model:Label" id="158" x="662" y="231" text="2" measuredWidth="14" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="183" x="674" y="11" width="24" height="24" measuredWidth="24" measuredHeight="24" icon="bell (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="160" x="64" y="227" text="5 Comentários" measuredWidth="104" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="192" x="20" y="222" measuredWidth="32" measuredHeight="32" icon="comments (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="196" x="916" y="217" text="3" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="198" x="240" y="242" width="657" height="39" measuredWidth="657" measuredHeight="39" link="grupos_leitura_detalhe_post.screen"/>
+  <widgets xsi:type="model:Hotspot" id="199" x="234" y="422" width="159" measuredWidth="159" measuredHeight="30" link="grupos_leitura_detalhe_post.screen"/>
+  <hRuler/>
+  <vRuler>
+    <guides position="659"/>
+  </vRuler>
+  <font size="14px"/>
+</model:Screen>
