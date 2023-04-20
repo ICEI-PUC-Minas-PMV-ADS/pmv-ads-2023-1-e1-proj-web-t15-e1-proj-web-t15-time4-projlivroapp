@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="12" width="1137" height="873" text="Browser&#xA;http://www.readin.com" measuredWidth="1137" measuredHeight="873">
+  <widgets xsi:type="model:Browser" id="12" width="1137" height="873" text="Browser&#xA;http://www.readin.com/grupos_leitura/1805&#xA;" measuredWidth="1137" measuredHeight="873">
     <font/>
   </widgets>
   <widgets xsi:type="model:VSplitter" id="15" x="168" y="62" height="801" measuredWidth="11" measuredHeight="801"/>
