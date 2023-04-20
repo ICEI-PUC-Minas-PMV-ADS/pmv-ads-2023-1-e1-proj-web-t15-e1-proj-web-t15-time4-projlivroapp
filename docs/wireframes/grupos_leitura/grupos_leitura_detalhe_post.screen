@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="12" width="1137" height="873" text="Browser&#xA;http://www.readin.com/grupos_leitura/1805/posts/1" measuredWidth="1137" measuredHeight="873">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VSplitter" id="15" x="168" y="62" height="801" measuredWidth="11" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="16" x="12" y="64" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="40" y="144" measuredWidth="74" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="26" x="21" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Label" id="27" y="31" text="Meu perfil" measuredWidth="74" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="16" y="224" measuredWidth="122" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="30" x="45" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
+    <widgets xsi:type="model:Label" id="31" y="40" text="Grupos de leitura" measuredWidth="122" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="32" x="1136" width="265" height="881" text="*Observações*&#xA;&#xA;&#xA;1 - Grupos poderiam ser sobre um ou mais livros, um autor ou sobre nada em específico&#xA;&#xA;2 - Link leva para detalhes do livro&#xA;&#xA;3 - Usuário pode querer ser &quot;seguir&quot; e ser notificado de um post" measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="43" y="312" measuredWidth="67" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="35" x="18" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
+    <widgets xsi:type="model:Label" id="36" y="31" text="Wishlists" measuredWidth="67" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="23" y="400" measuredWidth="108" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="38" x="38" measuredWidth="32" measuredHeight="32" icon="book (large)"/>
+    <widgets xsi:type="model:Label" id="39" y="40" text="Minhas leituras" measuredWidth="108" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="60" x="1120" y="62" height="801" measuredWidth="17" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="70" x="559" y="311" measuredWidth="6" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="120" x="1013" y="77" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
+  <widgets xsi:type="model:Callout" id="145" x="80" y="398" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="146" x="88" y="224" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="161" x="218" y="77" text="Os vingadores de Capitu" measuredWidth="474" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="185" x="621" y="156" text="Um grupo sobre:" measuredWidth="118" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="189" x="738" y="156" text="Dom Casmurro (M. de Assis)" measuredWidth="192" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="194" x="684" y="173" text="1" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="195" x="929" y="154" text="2" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="153" x="224" y="199" width="709" height="434" measuredWidth="709" measuredHeight="434"/>
+  <widgets xsi:type="model:Label" id="154" x="234" y="209" text="Postado por Alice Silveira 4 horas atrás" measuredWidth="268" measuredHeight="25" foreground="#999">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="155" x="241" y="240" text="Discussão amanhã no seminário sobre o livro!" measuredWidth="658" measuredHeight="45">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="156" x="248" y="304" width="642" height="120" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="642" measuredHeight="120">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="157" x="848" y="423" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+  <widgets xsi:type="model:Label" id="158" x="886" y="430" text="2" measuredWidth="14" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="183" x="898" y="210" width="24" height="24" measuredWidth="24" measuredHeight="24" icon="bell (large)"/>
+  <widgets xsi:type="model:Label" id="160" x="288" y="426" text="5 Comentários" measuredWidth="104" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="192" x="244" y="421" measuredWidth="32" measuredHeight="32" icon="comments (large)"/>
+  <widgets xsi:type="model:Label" id="200" x="400" y="503" text="2 horas atrás" measuredWidth="93" measuredHeight="25" foreground="#999">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="201" x="249" y="546" width="642" height="64" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." measuredWidth="642" measuredHeight="64">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="202" x="244" y="500" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+  <widgets xsi:type="model:Label" id="203" x="288" y="503" text="Marcela Abreu" measuredWidth="104" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="204" x="224" y="480" width="709" measuredWidth="709" measuredHeight="6"/>
+  <widgets xsi:type="model:Button" id="206" x="845" y="744" text="Comentar" measuredWidth="87" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="207" x="224" y="647" width="709" height="90" text="_Comentar..._" measuredWidth="709" measuredHeight="90">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="209" x="855" y="591" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
+  <widgets xsi:type="model:Label" id="210" x="893" y="598" text="2" measuredWidth="14" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="211" x="224" y="155" text="Voltar" measuredWidth="45" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="212" x="220" y="153" width="56" measuredWidth="56" measuredHeight="30" link="grupos_leitura_detalhe.screen"/>
+  <widgets xsi:type="model:Hotspot" id="213" x="19" y="208" width="115" height="81" measuredWidth="115" measuredHeight="81" link="grupos_leitura.screen"/>
+  <widgets xsi:type="model:WidgetGroup" id="214" x="31" y="498" measuredWidth="99" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="215" x="29" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="216" y="31" text="ReadInQuests" measuredWidth="99" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="659"/>
+  </vRuler>
+  <font size="14px"/>
+</model:Screen>

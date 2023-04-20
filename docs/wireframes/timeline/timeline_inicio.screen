@@ -195,7 +195,7 @@
   </widgets>
   <widgets xsi:type="model:Hotspot" id="161" x="1013" y="77" width="26" height="32" measuredWidth="26" measuredHeight="32" link="timeline_adicionar_progresso.screen"/>
   <widgets xsi:type="model:Hotspot" id="164" x="38" y="136" height="71" measuredWidth="80" measuredHeight="71"/>
-  <widgets xsi:type="model:Hotspot" id="165" x="16" y="224" width="115" height="71" measuredWidth="115" measuredHeight="71"/>
+  <widgets xsi:type="model:Hotspot" id="165" x="16" y="224" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../grupos_leitura/grupos_leitura.screen"/>
   <widgets xsi:type="model:Hotspot" id="166" x="38" y="307" height="71" measuredWidth="80" measuredHeight="71"/>
   <widgets xsi:type="model:Hotspot" id="167" x="16" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71"/>
   <widgets xsi:type="model:Hotspot" id="168" x="32" y="490" width="72" height="71" measuredWidth="72" measuredHeight="71"/>
