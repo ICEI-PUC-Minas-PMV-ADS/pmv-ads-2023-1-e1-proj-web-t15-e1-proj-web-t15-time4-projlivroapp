@@ -37,13 +37,16 @@ Os papéis acordados dentro da equipe foram os seguintes:
 
 ## 2. Ferramentas e links
 
-| Objetivo                                                                                                                                            | Ferramenta                                                                     | 
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------| 
-| [Gerenciamento do Projeto (Kanban)](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362)                                                    | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362) |
-| [Repositório de código-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time4-projlivroapp)          | GitHub                                                                         | 
-| [Documentos do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time4-projlivroapp/tree/main/docs) | GitHub                                                                         | 
-| [Projeto de Interface e Wireframes](wireframes)                                                                                                     | [WireframeSketcher](https://wireframesketcher.com/)                                                          | 
-| Comunicação                                                                                                                                         | Microsoft Teams, Whatsapp                                                      | 
+Os links da primeira coluna levam abrem os recursos que time está utilizando de cada uma das ferramentas listadas na segunda coluna.
+
+| Objetivo                                                                                                                                   | Ferramenta                                                                     | 
+|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------| 
+| [Gerenciamento do Projeto (Kanban)](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362)                                           | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362) |
+| [Repositório de código-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time4-projlivroapp) | [GitHub](https://github.com/)                                                  | 
+| [Documentos do projeto](../docs)                                                                                                           | [GitHub](https://github.com/)                                                  | 
+| [Projeto de Interface](./04-Projeto de Interface.md) e [Wireframes](wireframes)                                                            | [WireframeSketcher](https://wireframesketcher.com/)                            |
+| Retrospectivas (ver para cada Sprint, na seção [Processo](#3-processo) abaixo)                                                             | [EasyRetro](https://easyretro.io/)                                             |
+| Comunicação                                                                                                                                | Microsoft Teams, Whatsapp                                                      | 
 
 
 
@@ -65,6 +68,9 @@ _[A definir]_
 
 #### 3.2.2 Execução
 _[A definir]_
+
+##### Retrospectiva
+[A executar](https://easyretro.io/publicboard/pO5rOCrbzncqi6eKWaRzlpqYg4x1/abe022b3-45fc-4bc1-bcb3-cd9084a2be00)
 
 #### 3.2.3 Evidências
 _[A definir]_

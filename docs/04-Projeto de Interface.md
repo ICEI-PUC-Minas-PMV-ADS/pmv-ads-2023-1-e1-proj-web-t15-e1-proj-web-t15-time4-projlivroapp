@@ -11,7 +11,7 @@ O time está ciente que, à medida que caminha nas Sprints, revisões no backlog
 Para efeito de clareza lógica, o fluxo de usuário foi divido em três partes:
 
 - **Home, Cadastro e Autenticação**, primeiros pontos de contato do usuário com a aplicação e onde é assegurada sua identificação;
-- **Timeline e seus links**, tela-chave da aplicação pois oferecerá ao usuário o conteúdo mais imediatamente relevante bem como links que o permitirão navegar pelo restante do sistema;
+- **Timeline e seus links**, tela-chave da aplicação pois oferecerá ao usuário o conteúdo mais imediatamente relevante (compartilhado por seus amigos, selecionado pelos algoritmos de recomendação) bem como links que o permitirão navegar pelo restante do sistema;
 - **Funcionalidades**, telas específicas para cada _feature_ projetada para a aplicação.
 
 ## Wireframes
