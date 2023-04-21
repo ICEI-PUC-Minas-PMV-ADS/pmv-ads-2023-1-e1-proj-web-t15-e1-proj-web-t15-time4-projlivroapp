@@ -6,19 +6,6 @@ A metodologia adotada pela equipe foi o [Scrum](https://scrumguides.org/docs/scr
 - a retrospectiva será feita ainda dentro da Sprint (ao final) para a coleta de informações para a seção **Execução** dentro de **Processo** (_ver abaixo_);
 - a review será feita a critério do professor orientador.
 
-## Processo de revisão por pares e convenções
-O time decidiu adotar um padrão de revisão por pares baseado nas [Pull Requests (PR) do GitHub](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), da seguinte forma:
-
-- o nome das _branches_ seguirá o padrão: `readin-n`, onde `n` é o código da _issue_ no [quadro de trabalho do time](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362) correspondente àquela alteração. Exemplo: 
-\
-\
-  `readin-26` : [Revisar introdução de Metodologia](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362/views/1?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C%22Labels%22%5D&pane=issue&itemId=25970136)
-
-
-- a _branch_ `main` conterá o código de produção;
-- não será permitido _push_ direto na branch `main`, devendo o _merge_ ser feito obrigatoriamente por PR;
-- serão necessárias pelo menos duas aprovações na PR para ser permitido o _merge_.
-
 ## 1. Equipe de trabalho
 
 Os papéis acordados dentro da equipe foram os seguintes:
@@ -34,6 +21,20 @@ Os papéis acordados dentro da equipe foram os seguintes:
   - Michel Faria Suzigan
   - Ana Clara Rozinholi
   - Natali Xavier da Costa
+
+### Processo de revisão por pares e convenções
+A equipe decidiu adotar um padrão de revisão por pares baseado nas [Pull Requests (PR) do GitHub](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), da seguinte forma:
+
+- o nome das _branches_ seguirá o padrão: `readin-n`, onde `n` é o código da _issue_ no [quadro de trabalho do time](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362) correspondente àquela alteração. Exemplo:
+  \
+  \
+  `readin-26` : [Revisar introdução de Metodologia](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362/views/1?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C%22Labels%22%5D&pane=issue&itemId=25970136)
+
+
+- a _branch_ `main` conterá o código de produção;
+- não será permitido _push_ direto na branch `main`, devendo o _merge_ ser feito obrigatoriamente por PR;
+- serão necessárias pelo menos duas aprovações na PR para ser permitido o _merge_.
+
 
 ## 2. Ferramentas e links
 
