@@ -129,7 +129,7 @@ Os links da primeira coluna levam abrem os recursos que time está utilizando de
   <tr><td><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time4-projlivroapp/issues/3">Definir o nome da aplicação</a></td><td align="center">Equipe</td><td>23/04/2023</td></tr>
 </table>
 
-#### 3.3.1 Retrospectiva
+#### 3.3.2 Retrospectiva
 
 | O que foi bom                                                                  | O que podemos melhorar                                                                  | Ações                                                                  |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------|
