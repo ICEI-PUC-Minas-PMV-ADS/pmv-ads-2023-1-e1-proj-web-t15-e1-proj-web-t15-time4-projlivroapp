@@ -154,12 +154,6 @@
   <widgets xsi:type="model:Callout" id="146" x="88" y="224" width="16" height="14" measuredWidth="16" measuredHeight="14">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="147" x="43" y="498" measuredWidth="57" measuredHeight="56">
-    <widgets xsi:type="model:Icon" id="148" x="10" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
-    <widgets xsi:type="model:Label" id="149" y="31" text="&quot;Game&quot;" measuredWidth="57" measuredHeight="25">
-      <font/>
-    </widgets>
-  </widgets>
   <widgets xsi:type="model:Callout" id="150" x="95" y="497" text="1" measuredWidth="27" measuredHeight="27">
     <font bold="true"/>
   </widgets>
@@ -198,7 +192,13 @@
   <widgets xsi:type="model:Hotspot" id="165" x="16" y="224" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../grupos_leitura/grupos_leitura.screen"/>
   <widgets xsi:type="model:Hotspot" id="166" x="38" y="307" height="71" measuredWidth="80" measuredHeight="71"/>
   <widgets xsi:type="model:Hotspot" id="167" x="16" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71"/>
-  <widgets xsi:type="model:Hotspot" id="168" x="32" y="490" width="72" height="71" measuredWidth="72" measuredHeight="71"/>
+  <widgets xsi:type="model:WidgetGroup" id="169" x="24" y="498" measuredWidth="99" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="170" x="29" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="171" y="31" text="ReadInQuests" measuredWidth="99" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="168" x="22" y="490" width="98" height="71" measuredWidth="98" measuredHeight="71"/>
   <hRuler/>
   <vRuler>
     <guides position="659"/>
