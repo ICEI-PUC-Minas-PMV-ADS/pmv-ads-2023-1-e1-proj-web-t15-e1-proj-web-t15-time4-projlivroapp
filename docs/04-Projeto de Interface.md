@@ -16,4 +16,21 @@ Para efeito de clareza lógica, o fluxo de usuário foi divido em três partes:
 
 ## Wireframes
 
-_[Em construção]_
+A <b>melhor forma</b> de visualizar os wireframes é através do <b>PDF interativo</b>: faça o download aqui: <a href="wireframes/readin_story.pdf"><img src="img/pdf-icon.svg" width="32" height="32"></a>
+
+<table>
+    <tr>
+        <td><div align="center"><img src="wireframes/img/login.png"/>Login</div></td>
+        <td><div align="center"><img src="wireframes/img/registrar_usuario.png"/>Registrar usuário</div></td>
+        <td><div align="center"><img src="wireframes/img/timeline_inicio.png"/>Timeline - início</div></td>
+        <td><div align="center"><img src="wireframes/img/timeline_adicionar_progresso.png"/>Timeline - adicionar progresso de leitura</div></td>
+        <td><div align="center"><img src="wireframes/img/timeline_adicionar_nota.png"/>Timeline - adicionar nota</div></td>
+    </tr>
+    <tr>
+        <td><div align="center"><img src="wireframes/img/login.png"/>Login</div></td>
+        <td><div align="center"><img src="wireframes/img/registrar_usuario.png"/>Registrar usuário</div></td>
+        <td><div align="center"><img src="wireframes/img/timeline_inicio.png"/>Timeline - início</div></td>
+        <td><div align="center"><img src="wireframes/img/timeline_adicionar_progresso.png"/>Timeline - adicionar progresso de leitura</div></td>
+        <td><div align="center"><img src="wireframes/img/timeline_adicionar_nota.png"/>Timeline - adicionar nota</div></td>
+    </tr>
+</table>

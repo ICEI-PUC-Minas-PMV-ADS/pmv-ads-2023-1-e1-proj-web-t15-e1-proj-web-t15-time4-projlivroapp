@@ -19,9 +19,6 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Note" id="32" x="1136" width="265" height="881" text="*Observações*&#xA;&#xA;&#xA;1 - " measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:WidgetGroup" id="34" x="43" y="312" measuredWidth="67" measuredHeight="56">
     <widgets xsi:type="model:Icon" id="35" x="18" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
     <widgets xsi:type="model:Label" id="36" y="31" text="Wishlists" measuredWidth="67" measuredHeight="25">
@@ -60,8 +57,8 @@
   <widgets xsi:type="model:Label" id="190" x="560" y="252" text="Liga Diamante" measuredWidth="196" measuredHeight="41">
     <font size="28px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="207" x="557" y="222" text="você terminou em primeiro na" measuredWidth="172" measuredHeight="23" foreground="#444">
-    <font size="12px"/>
+  <widgets xsi:type="model:Label" id="207" x="537" y="222" text="você terminou em primeiro na" measuredWidth="207" measuredHeight="25" foreground="#444">
+    <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="70" x="625" y="623" measuredWidth="6" measuredHeight="24">
     <font/>
@@ -94,6 +91,15 @@
     <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:Hotspot" id="213" x="872" y="174" width="25" height="22" measuredWidth="25" measuredHeight="22" link="quests.screen"/>
+  <widgets xsi:type="model:Hotspot" id="214" x="42" y="136" height="71" measuredWidth="80" measuredHeight="71" link="../perfil.screen"/>
+  <widgets xsi:type="model:Hotspot" id="215" x="15" y="224" width="123" height="71" measuredWidth="123" measuredHeight="71" link="../grupos_leitura/grupos_leitura.screen"/>
+  <widgets xsi:type="model:Hotspot" id="216" x="42" y="307" height="71" measuredWidth="80" measuredHeight="71" link="../wishlists.screen"/>
+  <widgets xsi:type="model:Hotspot" id="217" x="20" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../minhas_leituras/minhas_leituras.screen"/>
+  <widgets xsi:type="model:Hotspot" id="218" x="26" y="490" width="98" height="71" measuredWidth="98" measuredHeight="71" link="quests.screen"/>
+  <widgets xsi:type="model:Hotspot" id="219" x="17" y="64" width="133" height="45" measuredWidth="133" measuredHeight="45" link="../timeline/timeline_inicio.screen"/>
+  <widgets xsi:type="model:Note" id="220" x="1136" width="265" height="881" measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler>
     <guides position="659"/>

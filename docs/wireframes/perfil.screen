@@ -25,7 +25,7 @@
   <widgets xsi:type="model:WidgetGroup" id="298" x="216" y="462" measuredWidth="868" measuredHeight="178">
     <widgets xsi:type="model:Panel" id="257" width="868" height="178" measuredWidth="868" measuredHeight="178"/>
     <widgets xsi:type="model:Placeholder" id="249" x="44" y="66" width="104" height="88" measuredWidth="104" measuredHeight="88"/>
-    <widgets xsi:type="model:Link" id="251" x="161" y="69" text="Amantes da ficção" measuredWidth="133" measuredHeight="27">
+    <widgets xsi:type="model:Link" id="251" x="161" y="69" text="Vingadores de Capitu" measuredWidth="155" measuredHeight="27">
       <font size="16px"/>
     </widgets>
     <widgets xsi:type="model:Text" id="252" x="161" y="106" text="6022 membros" measuredWidth="101" measuredHeight="17">
@@ -62,7 +62,7 @@
       </widgets>
       <widgets xsi:type="model:Icon" id="271" x="1" width="97" height="92" measuredWidth="97" measuredHeight="92" icon="user (large)"/>
     </widgets>
-    <widgets xsi:type="model:Link" id="272" x="454" y="88" text="Michel Faria" measuredWidth="104" measuredHeight="30">
+    <widgets xsi:type="model:Link" id="272" x="454" y="88" text="Beatriz Dias" measuredWidth="104" measuredHeight="30">
       <font size="19px"/>
     </widgets>
     <widgets xsi:type="model:WidgetGroup" id="273" x="648" y="55" measuredWidth="100" measuredHeight="100">
@@ -166,6 +166,16 @@
   <widgets xsi:type="model:Callout" id="355" x="936" y="168" text="1" measuredWidth="25" measuredHeight="25">
     <font bold="true"/>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="357" x="33" y="224" width="125" height="71" measuredWidth="125" measuredHeight="71" link="grupos_leitura/grupos_leitura.screen"/>
+  <widgets xsi:type="model:Hotspot" id="358" x="47" y="307" width="90" height="71" measuredWidth="90" measuredHeight="71" link="wishlists.screen"/>
+  <widgets xsi:type="model:Hotspot" id="359" x="27" y="397" width="131" height="84" measuredWidth="131" measuredHeight="84" link="minhas_leituras/minhas_leituras.screen"/>
+  <widgets xsi:type="model:Hotspot" id="360" x="31" y="490" width="124" height="77" measuredWidth="124" measuredHeight="77" link="quests/quests.screen"/>
+  <widgets xsi:type="model:Hotspot" id="361" x="376" y="528" width="171" height="25" measuredWidth="171" measuredHeight="25" link="grupos_leitura/grupos_leitura_detalhe.screen"/>
+  <widgets xsi:type="model:Hotspot" id="362" x="230" y="473" width="171" height="33" measuredWidth="171" measuredHeight="33" link="grupos_leitura/grupos_leitura_detalhe.screen"/>
+  <widgets xsi:type="model:Hotspot" id="363" x="664" y="744" width="113" measuredWidth="113" measuredHeight="30" link="visualizar_perfil.screen"/>
+  <widgets xsi:type="model:Hotspot" id="364" x="33" y="64" width="133" height="45" measuredWidth="133" measuredHeight="45" link="timeline/timeline_inicio.screen"/>
+  <widgets xsi:type="model:Hotspot" id="365" x="230" y="202" measuredWidth="80" measuredHeight="30" link="editar%20perfil.screen"/>
+  <widgets xsi:type="model:Hotspot" id="366" x="712" y="142" width="175" height="27" measuredWidth="175" measuredHeight="27" link="minhas_leituras/minhas_leituras.screen"/>
   <hRuler>
     <guides position="6"/>
   </hRuler>

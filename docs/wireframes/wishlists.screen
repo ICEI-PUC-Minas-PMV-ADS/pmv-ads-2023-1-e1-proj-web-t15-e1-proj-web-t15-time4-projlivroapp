@@ -1,54 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="156" x="10" y="10" width="1159" height="915" text="Browser&#xA;http://www.readin.com/wishlists" measuredWidth="1159" measuredHeight="915">
-    <font size="14px"/>
+  <widgets xsi:type="model:Browser" id="188" width="1137" height="873" text="Browser&#xA;http://www.readin.com" measuredWidth="1137" measuredHeight="873">
+    <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="2" x="16" y="115" text="ReadIn" measuredWidth="139" measuredHeight="57">
-    <font size="43px"/>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="3" x="36" y="297" measuredWidth="74" measuredHeight="56">
-    <widgets xsi:type="model:Icon" id="4" x="21" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
-    <widgets xsi:type="model:Label" id="5" y="31" text="Meu perfil" measuredWidth="74" measuredHeight="25">
-      <font size="14px"/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="6" x="16" y="377" measuredWidth="122" measuredHeight="65">
-    <widgets xsi:type="model:Icon" id="7" x="45" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
-    <widgets xsi:type="model:Label" id="8" y="40" text="Grupos de leitura" measuredWidth="122" measuredHeight="25">
-      <font size="14px"/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="9" x="42" y="457" measuredWidth="67" measuredHeight="56">
-    <widgets xsi:type="model:Icon" id="10" x="18" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
-    <widgets xsi:type="model:Label" id="11" y="31" text="Wishlists" measuredWidth="67" measuredHeight="25">
-      <font size="14px"/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="12" x="24" y="537" measuredWidth="99" measuredHeight="61">
-    <widgets xsi:type="model:Icon" id="13" x="32" width="36" height="28" measuredWidth="36" measuredHeight="28" icon="book (large)"/>
-    <widgets xsi:type="model:Label" id="14" y="36" width="99" text="Minhas leituras" measuredWidth="99" measuredHeight="25">
-      <font size="14px"/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="15" x="30" y="625" measuredWidth="99" measuredHeight="58">
-    <widgets xsi:type="model:Icon" id="16" x="25" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
-    <widgets xsi:type="model:Label" id="17" y="33" text="ReadInQuests" measuredWidth="99" measuredHeight="25">
-      <font size="14px"/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:VSplitter" id="18" x="168" y="62" height="861" measuredWidth="11" measuredHeight="861"/>
-  <widgets xsi:type="model:WidgetGroup" id="22" x="35" y="214" measuredWidth="88" measuredHeight="57">
-    <widgets xsi:type="model:Icon" id="23" x="20" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
-    <widgets xsi:type="model:Text" id="24" y="40" text="Página inicial" measuredWidth="88" measuredHeight="17">
-      <font size="14px"/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:VScrollbar" id="88" x="1152" y="60" height="866" measuredWidth="17" measuredHeight="866"/>
-  <widgets xsi:type="model:Icon" id="89" x="208" y="141" width="57" height="57" measuredWidth="57" measuredHeight="57" icon="edit (large)"/>
-  <widgets xsi:type="model:TextField" id="90" x="288" y="152" text="Wishlists" measuredWidth="117" measuredHeight="35">
+  <widgets xsi:type="model:VSplitter" id="18" x="168" y="62" height="810" measuredWidth="11" measuredHeight="810"/>
+  <widgets xsi:type="model:VScrollbar" id="88" x="1120" y="52" height="820" measuredWidth="17" measuredHeight="820"/>
+  <widgets xsi:type="model:Icon" id="89" x="208" y="92" width="57" height="57" measuredWidth="57" measuredHeight="57" icon="edit (large)"/>
+  <widgets xsi:type="model:TextField" id="90" x="288" y="103" text="Wishlists" measuredWidth="117" measuredHeight="35">
     <font size="24px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="138" x="239" y="291" measuredWidth="447" measuredHeight="259">
+  <widgets xsi:type="model:WidgetGroup" id="138" x="239" y="199" measuredWidth="447" measuredHeight="259">
     <widgets xsi:type="model:Panel" id="91" width="447" height="259" measuredWidth="447" measuredHeight="259"/>
     <widgets xsi:type="model:Image" id="92" x="14" y="15" width="110" height="109" measuredWidth="110" measuredHeight="109"/>
     <widgets xsi:type="model:Button" id="101" x="364" y="214" width="67" height="24" text="Remover" measuredWidth="67" measuredHeight="24">
@@ -59,12 +20,12 @@
     <widgets xsi:type="model:Icon" id="135" x="358" y="80" width="18" height="16" measuredWidth="18" measuredHeight="16" icon="assets/twitter-alt (large)"/>
     <widgets xsi:type="model:Icon" id="136" x="378" y="80" width="19" height="16" measuredWidth="19" measuredHeight="16" icon="assets/facebook-alt (large)"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="148" x="251" y="437" measuredWidth="439" measuredHeight="204">
+  <widgets xsi:type="model:WidgetGroup" id="148" x="251" y="345" measuredWidth="439" measuredHeight="204">
     <widgets xsi:type="model:Text" id="117" width="439" height="204" text="Com a sua temática arquetípica e grandiosidade &#xA;estética, o Fausto se impõe como ápice e síntese da&#xA;obra pioneira de Johann Wolfgang von Goethe. &#xA;A obra-prima do autor nos transporta à tragédia&#xA;do protagonista que, desiludido, faz um pacto com &#xA;o demônio Mefistófoles.&#xA;" measuredWidth="439" measuredHeight="204">
       <font size="13px"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="139" x="240" y="621" measuredWidth="447" measuredHeight="259">
+  <widgets xsi:type="model:WidgetGroup" id="139" x="240" y="529" measuredWidth="447" measuredHeight="259">
     <widgets xsi:type="model:Panel" id="140" width="447" height="259" measuredWidth="447" measuredHeight="259"/>
     <widgets xsi:type="model:Image" id="141" x="14" y="15" width="110" height="109" measuredWidth="110" measuredHeight="109"/>
     <widgets xsi:type="model:Button" id="142" x="364" y="214" width="67" height="24" text="Remover" measuredWidth="67" measuredHeight="24">
@@ -75,7 +36,7 @@
     <widgets xsi:type="model:Icon" id="145" x="358" y="80" width="18" height="16" measuredWidth="18" measuredHeight="16" icon="assets/twitter-alt (large)"/>
     <widgets xsi:type="model:Icon" id="146" x="378" y="80" width="19" height="16" measuredWidth="19" measuredHeight="16" icon="assets/facebook-alt (large)"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="147" x="371" y="314" measuredWidth="157" measuredHeight="98">
+  <widgets xsi:type="model:WidgetGroup" id="147" x="371" y="222" measuredWidth="157" measuredHeight="98">
     <widgets xsi:type="model:Label" id="122" x="1" y="32" text="Ano de publicação: 1808" measuredWidth="155" measuredHeight="24">
       <font size="13px"/>
     </widgets>
@@ -89,7 +50,7 @@
       <font size="15px" bold="true"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="149" x="371" y="644" measuredWidth="185" measuredHeight="98">
+  <widgets xsi:type="model:WidgetGroup" id="149" x="371" y="552" measuredWidth="185" measuredHeight="98">
     <widgets xsi:type="model:Label" id="150" x="1" y="32" text="Ano de publicação: 2011" measuredWidth="155" measuredHeight="24">
       <font size="13px"/>
     </widgets>
@@ -103,7 +64,7 @@
       <font size="15px" bold="true"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Text" id="154" x="256" y="758" width="313" height="137" text="Rio, 1938. Um perigoso assassino está à solta nas ruas. Seu alvo: mulheres jovens, bonitas e... gordas. Sua arma: irresistíveis doces portugueses. Com requintes de crueldade gastronômica, ele mata sem piedade suas vítimas, e depois expõe seus cadáveres acintosamente, escarnecendo das autoridades." measuredWidth="313" measuredHeight="137">
+  <widgets xsi:type="model:Text" id="154" x="256" y="666" width="313" height="137" text="Rio, 1938. Um perigoso assassino está à solta nas ruas. Seu alvo: mulheres jovens, bonitas e... gordas. Sua arma: irresistíveis doces portugueses. Com requintes de crueldade gastronômica, ele mata sem piedade suas vítimas, e depois expõe seus cadáveres acintosamente, escarnecendo das autoridades." measuredWidth="313" measuredHeight="137">
     <font size="13px"/>
   </widgets>
   <widgets xsi:type="model:SearchField" id="157" x="856" y="109" width="217" text="Pesquisar título ou autor" measuredWidth="217" measuredHeight="24">
@@ -111,6 +72,47 @@
   </widgets>
   <widgets xsi:type="model:Label" id="159" x="680" y="108" text="Adicionar novo Título" measuredWidth="158" measuredHeight="25">
     <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="165" x="40" y="144" measuredWidth="63" measuredHeight="54">
+    <widgets xsi:type="model:Icon" id="166" x="21" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Label" id="167" y="31" text="Meu perfil" measuredWidth="63" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="168" x="16" y="224" measuredWidth="101" measuredHeight="63">
+    <widgets xsi:type="model:Icon" id="169" x="45" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
+    <widgets xsi:type="model:Label" id="170" y="40" text="Grupos de leitura" measuredWidth="101" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="171" x="43" y="312" measuredWidth="53" measuredHeight="54">
+    <widgets xsi:type="model:Icon" id="172" x="18" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
+    <widgets xsi:type="model:Label" id="173" y="31" text="Wishlists" measuredWidth="53" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="174" x="23" y="400" measuredWidth="88" measuredHeight="63">
+    <widgets xsi:type="model:Icon" id="175" x="38" measuredWidth="32" measuredHeight="32" icon="book (large)"/>
+    <widgets xsi:type="model:Label" id="176" y="40" text="Minhas leituras" measuredWidth="88" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="177" x="24" y="498" measuredWidth="82" measuredHeight="54">
+    <widgets xsi:type="model:Icon" id="178" x="29" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="179" y="31" text="ReadInQuests" measuredWidth="82" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="180" x="12" y="64" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="181" x="35" y="136" height="71" measuredWidth="80" measuredHeight="71" link="perfil.screen"/>
+  <widgets xsi:type="model:Hotspot" id="182" x="13" y="224" width="115" height="71" measuredWidth="115" measuredHeight="71" link="grupos_leitura/grupos_leitura.screen"/>
+  <widgets xsi:type="model:Hotspot" id="184" x="13" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71" link="minhas_leituras/minhas_leituras.screen"/>
+  <widgets xsi:type="model:Hotspot" id="185" x="19" y="490" width="98" height="71" measuredWidth="98" measuredHeight="71" link="quests/quests.screen"/>
+  <widgets xsi:type="model:Hotspot" id="186" x="17" y="64" width="133" height="45" measuredWidth="133" measuredHeight="45" link="timeline/timeline_inicio.screen"/>
+  <widgets xsi:type="model:Note" id="189" x="1136" width="265" height="881" measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>

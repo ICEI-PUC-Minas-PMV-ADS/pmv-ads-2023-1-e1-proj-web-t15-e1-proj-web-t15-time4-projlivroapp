@@ -53,7 +53,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="65" x="272" y="144" text="José da Silva" measuredWidth="91" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="65" x="272" y="144" text="Beatriz Dias" measuredWidth="86" measuredHeight="25">
     <font/>
   </widgets>
   <widgets xsi:type="model:TextArea" id="67" x="233" y="336" width="801" height="49" text="_Comentar...._" measuredWidth="801" measuredHeight="49">
@@ -188,17 +188,18 @@
     <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:Hotspot" id="161" x="1013" y="77" width="26" height="32" measuredWidth="26" measuredHeight="32" link="timeline_adicionar_progresso.screen"/>
-  <widgets xsi:type="model:Hotspot" id="164" x="38" y="136" height="71" measuredWidth="80" measuredHeight="71"/>
+  <widgets xsi:type="model:Hotspot" id="164" x="38" y="136" height="71" measuredWidth="80" measuredHeight="71" link="../perfil.screen"/>
   <widgets xsi:type="model:Hotspot" id="165" x="16" y="224" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../grupos_leitura/grupos_leitura.screen"/>
-  <widgets xsi:type="model:Hotspot" id="166" x="38" y="307" height="71" measuredWidth="80" measuredHeight="71"/>
-  <widgets xsi:type="model:Hotspot" id="167" x="16" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71"/>
+  <widgets xsi:type="model:Hotspot" id="166" x="38" y="307" height="71" measuredWidth="80" measuredHeight="71" link="../wishlists.screen"/>
+  <widgets xsi:type="model:Hotspot" id="167" x="16" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../minhas_leituras/minhas_leituras.screen"/>
   <widgets xsi:type="model:WidgetGroup" id="169" x="24" y="498" measuredWidth="99" measuredHeight="56">
     <widgets xsi:type="model:Icon" id="170" x="29" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
     <widgets xsi:type="model:Label" id="171" y="31" text="ReadInQuests" measuredWidth="99" measuredHeight="25">
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Hotspot" id="168" x="22" y="490" width="98" height="71" measuredWidth="98" measuredHeight="71"/>
+  <widgets xsi:type="model:Hotspot" id="168" x="22" y="490" width="98" height="71" measuredWidth="98" measuredHeight="71" link="../quests/quests.screen"/>
+  <widgets xsi:type="model:Hotspot" id="172" x="232" y="142" width="129" measuredWidth="129" measuredHeight="30" link="../visualizar_perfil.screen"/>
   <hRuler/>
   <vRuler>
     <guides position="659"/>

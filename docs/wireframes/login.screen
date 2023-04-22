@@ -4,8 +4,8 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="403" y="246" width="280" height="336" measuredWidth="280" measuredHeight="336"/>
-  <widgets xsi:type="model:Label" id="3" x="485" y="256" text="ReadIn" measuredWidth="120" measuredHeight="49">
-    <font size="36px"/>
+  <widgets xsi:type="model:Label" id="3" x="479" y="257" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px"/>
   </widgets>
   <widgets xsi:type="model:TextField" id="4" x="443" y="333" width="200" text="  Nome de Usuario ou Email" measuredWidth="200" measuredHeight="22" state="disabled">
     <font/>
@@ -28,6 +28,8 @@
       <font/>
     </widgets>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="19" x="443" y="419" width="200" height="27" measuredWidth="200" measuredHeight="27" link="timeline/timeline_inicio.screen"/>
+  <widgets xsi:type="model:Hotspot" id="20" x="502" y="529" width="91" height="17" measuredWidth="91" measuredHeight="17" link="registrar_usuario.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
