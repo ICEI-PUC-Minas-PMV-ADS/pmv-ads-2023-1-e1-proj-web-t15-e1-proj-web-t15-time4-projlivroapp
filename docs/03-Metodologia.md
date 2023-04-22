@@ -40,7 +40,7 @@ Os links da primeira coluna levam abrem os recursos que time está utilizando de
 | [Quadro de trabalho/gerenciamento do projeto (Kanban)](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362)                        | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362) |
 | [Repositório de código-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time4-projlivroapp) | [GitHub](https://github.com/)                                                  | 
 | [Documentos do projeto](../docs)                                                                                                           | [GitHub](https://github.com/)                                                  | 
-| [Projeto de Interface](04-Projeto%20de%20Interface.md) e [Wireframes](wireframes)                                                          | [WireframeSketcher](https://wireframesketcher.com/)                            |
+| [Projeto de Interface](04-Projeto%20de%20Interface.md) e [Wireframes](04-Projeto%20de%20Interface.md#wireframes)                           | [WireframeSketcher](https://wireframesketcher.com/)                            |
 | Retrospectivas (ver para cada Sprint na seção Processo abaixo)                                                                             | [EasyRetro](https://easyretro.io/)                                             |
 | Comunicação                                                                                                                                | Microsoft Teams, Whatsapp                                                      | 
 
