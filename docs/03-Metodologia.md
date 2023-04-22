@@ -97,6 +97,7 @@ Os links da primeira coluna levam abrem os recursos que time está utilizando de
 <img src="img/kanban_readin.png" alt="Quadro de trabalho da equipe no dia 21/04/23">
 <i>Quadro de trabalho do time no dia 21/04/2023</i>
 </div>
+<br/>
 <table>
   <tr>
   <td align="center"><b>Entregável</b></td><td  align="center"><b>Tarefa planejada</b></td><td align="center"><b>Responsável</b></td><td align="center"><b>Prazo</b></td></tr>
