@@ -39,9 +39,6 @@
   <widgets xsi:type="model:Callout" id="146" x="88" y="224" width="16" height="14" measuredWidth="16" measuredHeight="14">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Callout" id="150" x="95" y="497" text="1" measuredWidth="27" measuredHeight="27">
-    <font bold="true"/>
-  </widgets>
   <widgets xsi:type="model:WidgetGroup" id="151" x="24" y="498" measuredWidth="99" measuredHeight="56">
     <widgets xsi:type="model:Icon" id="152" x="29" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
     <widgets xsi:type="model:Label" id="153" y="31" text="ReadInQuests" measuredWidth="99" measuredHeight="25">
