@@ -99,6 +99,7 @@ Os links da primeira coluna levam abrem os recursos que time está utilizando de
 </div>
 <br/>
 <i><b>Observação:</b> A equipe optou por reservar o trabalho da membro Natali da Costa para a construção do layout da aplicação (tarefa prevista para a próxima Sprint).</i>
+<br/>
 <table>
   <tr>
   <td align="center"><b>Entregável</b></td><td  align="center"><b>Tarefa planejada</b></td><td align="center"><b>Responsável</b></td><td align="center"><b>Prazo</b></td></tr>
