@@ -10,12 +10,12 @@ A metodologia adotada pela equipe foi o [Scrum](https://scrumguides.org/docs/scr
 
 Os papéis acordados dentro da equipe foram os seguintes:
 
-| Papel                         | Responsável                                                                                                                             |
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **Scrum Master**              | Ana Clara Rozinholi                                                                                                                     |
-| **Product Owner**             | Michel Suzigan                                                                                                                          |
-| **Equipe de Design**          | - Natali Xavier da Costa  <br/>- Michel Faria Suzigan                                                                                   |
-| **Equipe de Desenvolvimento** | - Victor Beltrão <br/>- Pablo Vinicius Ramos Lopes <br/>- Michel Faria Suzigan <br/>- Ana Clara Rozinholi <br/>- Natali Xavier da Costa |
+| Papel                         | Responsável                                                                                                                   |
+|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Scrum Master**              | Ana Clara Rozinholi                                                                                                           |
+| **Product Owner**             | Michel Suzigan                                                                                                                |
+| **Equipe de Design**          | Natali Xavier da Costa  <br/>Michel Faria Suzigan                                                                             |
+| **Equipe de Desenvolvimento** | Victor Beltrão <br/>Pablo Vinicius Ramos Lopes <br/>Michel Faria Suzigan <br/>Ana Clara Rozinholi <br/>Natali Xavier da Costa |
 
 ### Processo de revisão por pares e convenções
 A equipe decidiu adotar um padrão de revisão por pares baseado nas [Pull Requests (PR) do GitHub](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), da seguinte forma:
@@ -94,8 +94,8 @@ Os links da primeira coluna levam abrem os recursos que time está utilizando de
 #### 3.3.1 Planejamento e Execução
 
 <div align="center">
-<img src="img/kanban_readin.png" alt="Quadro de trabalho da equipe no dia 21/04/23">
-<i>Quadro de trabalho do time no dia 21/04/2023</i>
+<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362"><img src="img/kanban_readin.png" alt="Quadro de trabalho da equipe no dia 21/04/23"></a>
+<i><a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/362">Quadro de trabalho do time no dia 21/04/2023</a></i>
 </div>
 <br/>
 <table>
