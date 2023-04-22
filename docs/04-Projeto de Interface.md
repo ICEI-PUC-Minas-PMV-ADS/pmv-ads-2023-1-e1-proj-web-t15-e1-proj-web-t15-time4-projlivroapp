@@ -16,9 +16,9 @@ Para efeito de clareza lógica, o fluxo de usuário foi divido em três partes:
 
 ## Wireframes
 
-A <b>melhor forma</b> de visualizar os wireframes é através do <b>PDF interativo</b>: faça o download aqui: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time4-projlivroapp/raw/readin-5/docs/wireframes/readin_story.pdf"><img src="img/pdf-icon.svg" width="32" height="32"></a>
+A <b>melhor forma</b> de visualizar os wireframes é através do <b>PDF interativo consolidado</b> em <b>tela cheia</b>: faça o download aqui: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time4-projlivroapp/raw/readin-5/docs/wireframes/readin_story.pdf"><img src="img/pdf-icon.svg" width="32" height="32"></a>
 
-Abaixo, todos os wireframes projetados:
+Abaixo, a lista dos wireframes:
 
 <table>
     <tr>
