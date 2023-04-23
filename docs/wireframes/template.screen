@@ -19,7 +19,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Note" id="32" x="1136" width="265" height="881" text="*Observações*&#xA;&#xA;&#xA;1 - " measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="32" x="1136" width="265" height="881" measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="34" x="43" y="312" measuredWidth="67" measuredHeight="56">

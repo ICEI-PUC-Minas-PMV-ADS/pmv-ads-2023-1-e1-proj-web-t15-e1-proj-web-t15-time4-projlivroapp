@@ -151,6 +151,11 @@
       <font/>
     </widgets>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="219" x="10" y="65" width="148" height="45" measuredWidth="148" measuredHeight="45" link="../timeline/timeline_inicio.screen"/>
+  <widgets xsi:type="model:Hotspot" id="220" x="38" y="136" height="71" measuredWidth="80" measuredHeight="71" link="../perfil.screen"/>
+  <widgets xsi:type="model:Hotspot" id="221" x="38" y="307" height="71" measuredWidth="80" measuredHeight="71" link="../wishlists.screen"/>
+  <widgets xsi:type="model:Hotspot" id="222" x="16" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../minhas_leituras/minhas_leituras.screen"/>
+  <widgets xsi:type="model:Hotspot" id="223" x="22" y="490" width="98" height="71" measuredWidth="98" measuredHeight="71" link="../quests/quests.screen"/>
   <hRuler/>
   <vRuler>
     <guides position="659"/>

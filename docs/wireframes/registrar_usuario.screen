@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="1137" height="873" text="Browser&#xA;http://www.readin.com" measuredWidth="1137" measuredHeight="873" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="296" y="245" width="496" height="384" measuredWidth="496" measuredHeight="384"/>
+  <widgets xsi:type="model:TextField" id="3" x="308" y="325" width="208" text="Nome" measuredWidth="208" measuredHeight="22" state="disabled" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="4" x="308" y="255" width="472" height="59" text="Cadastre-se agora &#xD;&#xA;Descubra um novo mundo de histórias!" measuredWidth="472" measuredHeight="59">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="5" x="308" y="312" width="473" measuredWidth="473" measuredHeight="6"/>
+  <widgets xsi:type="model:TextField" id="6" x="572" y="325" width="210" text="Sobrenome" measuredWidth="210" measuredHeight="22" state="disabled" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="7" x="308" y="357" width="472" text="  Email" measuredWidth="472" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="481" y="176" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="9" x="308" y="397" width="208" text="  Senha" measuredWidth="208" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="10" x="572" y="397" width="208" text="  Confirme sua senha" measuredWidth="208" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="309" y="453" width="120" text="  Dia" measuredWidth="120" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="475" y="453" width="120" text="  Mês" measuredWidth="120" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="635" y="453" width="120" text="  Ano" measuredWidth="120" measuredHeight="22" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="14" x="309" y="428" width="125" height="18" text="Data de nascimento " measuredWidth="125" measuredHeight="18">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="16" x="312" y="525" width="445" height="46" text="Para oferecermos um serviço ainda melhor, podemos coletar informações de contato de usuários que já utilizam o Readln. Ao clicar em Cadastre-se, você está concordando com nossos Termos, Política de Privacidade e Política de Cookies." measuredWidth="445" measuredHeight="46">
+    <font size="9px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="29" x="312" y="493" width="120" text="      Masculino" measuredWidth="120" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="30" x="475" y="493" width="120" text="      Feminino" measuredWidth="120" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="31" x="635" y="493" width="120" text="      Personalizado" measuredWidth="120" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="32" x="315" y="497" measuredWidth="16" measuredHeight="16" icon="unselected (small)"/>
+  <widgets xsi:type="model:Icon" id="33" x="478" y="497" measuredWidth="16" measuredHeight="16" icon="unselected (small)"/>
+  <widgets xsi:type="model:Icon" id="34" x="637" y="497" measuredWidth="16" measuredHeight="16" icon="unselected (small)"/>
+  <widgets xsi:type="model:Button" id="36" x="464" y="570" width="142" height="33" text="Cadastre-se" measuredWidth="142" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="42" x="748" y="255" measuredWidth="32" measuredHeight="32" icon="circled-mul (large)"/>
+  <widgets xsi:type="model:Hotspot" id="43" x="464" y="572" width="142" measuredWidth="142" measuredHeight="30" link="timeline/timeline_inicio.screen"/>
+  <widgets xsi:type="model:Hotspot" id="44" x="743" y="256" width="42" measuredWidth="42" measuredHeight="30" link="login.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

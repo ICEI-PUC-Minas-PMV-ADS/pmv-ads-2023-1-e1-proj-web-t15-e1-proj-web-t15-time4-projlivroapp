@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 O projeto contou com uma abordagem de pesquisa pelos membros da equipe, com o objetivo de aprofundamento do problema,
 identificando os pontos mais relevantes a serem retratados. Os usuários foram submetidos a questões sobre suas
 preferências, dificuldades e hábitos, nos dando um panorama satisfatório de suas atividades relacionadas à leitura. As
