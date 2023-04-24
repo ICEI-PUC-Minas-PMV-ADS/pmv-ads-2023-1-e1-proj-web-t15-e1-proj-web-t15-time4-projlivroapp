@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="16" y="16" width="1137" height="873" text="Browser&#xA;http://www.readin.com" measuredWidth="1137" measuredHeight="873" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="32" x="16" y="64" width="1112" height="815" measuredWidth="1112" measuredHeight="815" background="#fff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="224" y="119" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="4" x="958" y="85" width="112" height="40" text="Cadastrar-se" measuredWidth="112" measuredHeight="40" state="focused" style="round">
+    <font size="14px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="29" x="886" y="94" height="21" text="Entrar" measuredWidth="43" measuredHeight="21">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="33" x="224" y="264" width="208" height="233" text="Resgate o prazer da leitura em um mundo cada vez mais conectado. " measuredWidth="208" measuredHeight="233">
+    <font size="28px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="34" x="224" y="520" width="248" height="65" text="Junte-se a nós e descubra uma nova forma de compartilhar suas experiências literárias" measuredWidth="248" measuredHeight="65">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:VideoPlayer" id="41" x="560" y="257" width="312" height="264" measuredWidth="312" measuredHeight="264"/>
+  <widgets xsi:type="model:Hotspot" id="42" x="958" y="87" width="112" height="39" measuredWidth="112" measuredHeight="39" link="login.screen"/>
+  <widgets xsi:type="model:Hotspot" id="43" x="880" y="86" width="59" height="34" measuredWidth="59" measuredHeight="34" link="login.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
