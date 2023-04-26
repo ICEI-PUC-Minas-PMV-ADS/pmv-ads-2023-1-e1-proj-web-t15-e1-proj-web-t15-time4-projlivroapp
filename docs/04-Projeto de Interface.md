@@ -22,7 +22,7 @@ Abaixo, a lista dos wireframes:
 
 <table>
     <tr>
-        <td><div align="center"><img src="wireframes/img/login.png"/>Homepage</div></td>
+        <td><div align="center"><img src="wireframes/img/homepage.png"/>Homepage</div></td>
         <td><div align="center"><img src="wireframes/img/login.png"/>Login</div></td>
         <td><div align="center"><img src="wireframes/img/registrar_usuario.png"/>Registrar usuário</div></td>
         <td><div align="center"><img src="wireframes/img/timeline_inicio.png"/>Timeline - início</div></td>
