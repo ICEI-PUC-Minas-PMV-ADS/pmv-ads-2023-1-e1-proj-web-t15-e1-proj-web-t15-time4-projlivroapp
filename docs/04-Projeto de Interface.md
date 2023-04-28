@@ -1,35 +1,59 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+As interfaces foram elaboradas em diversas rodadas de discussão e revisão entre os membros do time (ver [Metodologia - Processo de revisão](./03-Metodologia.md#processo-de-revisão-por-pares-e-convenções)) a fim de satisfazer os [requisitos funcionais e não-funcionais](./02-Especificação%20do%20Projeto.md#requisitos).  
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+O time está ciente que, à medida que caminha nas Sprints, revisões no backlog (e, portanto, nas interfaces) serão necessárias e esse caráter iterativo é característica de um processo ágil.
 
 ## User Flow
+![Userflow do projeto ReadIn](img/fluxo_usuario.png)
 
-![Exemplo de UserFlow](img/userflow.jpg)
+Para efeito de clareza lógica, o fluxo de usuário foi divido em três partes:
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+- **Home, Cadastro e Autenticação**, primeiros pontos de contato do usuário com a aplicação e onde é assegurada sua identificação;
+- **Timeline e seus links**, tela-chave da aplicação pois oferecerá ao usuário o conteúdo mais imediatamente relevante (compartilhado por seus amigos, selecionado pelos algoritmos de recomendação) bem como links que o permitirão navegar pelo restante do sistema;
+- **Funcionalidades**, telas específicas para cada _feature_ projetada para a aplicação.
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+A <b>melhor forma</b> de visualizar os wireframes é através do <b>PDF interativo consolidado</b> em <b>tela cheia</b>: faça o download aqui <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time4-projlivroapp/raw/main/docs/wireframes/readin_story.pdf"><img src="img/pdf-icon.svg" width="32" height="32"></a>
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+Abaixo, a lista dos wireframes:
+
+<table>
+    <tr>
+        <td><div align="center"><img src="wireframes/img/homepage.png"/>Homepage</div></td>
+        <td><div align="center"><img src="wireframes/img/login.png"/>Login</div></td>
+        <td><div align="center"><img src="wireframes/img/registrar_usuario.png"/>Registrar usuário</div></td>
+        <td><div align="center"><img src="wireframes/img/timeline_inicio.png"/>Timeline - início</div></td>
+        <td><div align="center"><img src="wireframes/img/timeline_adicionar_progresso.png"/>Timeline - adicionar progresso de leitura</div></td>
+    </tr>
+    <tr>
+        <td><div align="center"><img src="wireframes/img/timeline_adicionar_nota.png"/>Timeline - adicionar nota</div></td>
+        <td><div align="center"><img src="wireframes/img/grupos_leitura.png"/>Grupos de leitura - início</div></td>
+        <td><div align="center"><img src="wireframes/img/grupos_leitura_novo_grupo.png"/>Grupos de leitura - novo grupo</div></td>
+        <td><div align="center"><img src="wireframes/img/grupos_leitura_opcoes_avancadas.png"/>Grupos de leitura - opções avançadas de busca</div></td>
+        <td><div align="center"><img src="wireframes/img/grupos_leitura_detalhe.png"/>Grupos de leitura - Detalhe de grupo</div></td>
+    </tr>
+    <tr>
+        <td><div align="center"><img src="wireframes/img/grupos_leitura_detalhe_membros.png"/>Grupos de leitura - Membros de grupo</div></td>
+        <td><div align="center"><img src="wireframes/img/grupos_leitura_detalhe_post.png"/>Grupos de leitura - Post em grupo</div></td>
+        <td><div align="center"><img src="wireframes/img/editar_perfil.png"/>Editar perfil</div></td>
+        <td><div align="center"><img src="wireframes/img/minhas_leituras.png"/>Minhas leituras - início</div></td>
+        <td><div align="center"><img src="wireframes/img/minhas_leituras_cadastrar_leitura.png"/>Minhas leituras - cadastrar leitura</div></td>
+    </tr>
+    <tr>
+        <td><div align="center"><img src="wireframes/img/minhas_leituras_resumo_livro.png"/>Minhas leituras - resumo de livro</div></td>
+        <td><div align="center"><img src="wireframes/img/perfil.png"/>Meu perfil</div></td>
+        <td><div align="center"><img src="wireframes/img/quests.png"/>ReadInQuests - início</div></td>
+        <td><div align="center"><img src="wireframes/img/quests_finalizado.png"/>ReadInQuests - quest finalizado</div></td>
+        <td><div align="center"><img src="wireframes/img/visualizar_perfil.png"/>Visualizar um perfil</div></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td><div align="center"><img src="wireframes/img/wishlists.png"/>Wishlists</div></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>

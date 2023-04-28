@@ -114,7 +114,7 @@
   <widgets xsi:type="model:Hotspot" id="198" x="240" y="242" width="657" height="39" measuredWidth="657" measuredHeight="39" link="grupos_leitura_detalhe_post.screen"/>
   <widgets xsi:type="model:Hotspot" id="199" x="234" y="422" width="159" measuredWidth="159" measuredHeight="30" link="grupos_leitura_detalhe_post.screen"/>
   <widgets xsi:type="model:Hotspot" id="200" x="208" y="155" width="148" measuredWidth="148" measuredHeight="30" link="grupos_leitura_detalhe_membros.screen"/>
-  <widgets xsi:type="model:Hotspot" id="201" x="19" y="208" width="115" height="81" measuredWidth="115" measuredHeight="81" link="grupos_leitura.screen"/>
+  <widgets xsi:type="model:Hotspot" id="201" x="17" y="208" width="132" height="81" measuredWidth="132" measuredHeight="81" link="grupos_leitura.screen"/>
   <widgets xsi:type="model:Icon" id="202" x="901" y="90" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
   <widgets xsi:type="model:Hotspot" id="203" x="896" y="91" width="47" height="31" measuredWidth="47" measuredHeight="31" link="grupos_leitura.screen"/>
   <widgets xsi:type="model:WidgetGroup" id="204" x="31" y="498" measuredWidth="99" measuredHeight="56">
@@ -123,6 +123,11 @@
       <font/>
     </widgets>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="207" x="10" y="65" width="148" height="45" measuredWidth="148" measuredHeight="45" link="../timeline/timeline_inicio.screen"/>
+  <widgets xsi:type="model:Hotspot" id="208" x="38" y="136" height="71" measuredWidth="80" measuredHeight="71" link="../perfil.screen"/>
+  <widgets xsi:type="model:Hotspot" id="210" x="38" y="307" height="71" measuredWidth="80" measuredHeight="71" link="../wishlists.screen"/>
+  <widgets xsi:type="model:Hotspot" id="211" x="16" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../minhas_leituras/minhas_leituras.screen"/>
+  <widgets xsi:type="model:Hotspot" id="212" x="22" y="490" width="108" height="71" measuredWidth="108" measuredHeight="71" link="../quests/quests.screen"/>
   <hRuler/>
   <vRuler>
     <guides position="659"/>

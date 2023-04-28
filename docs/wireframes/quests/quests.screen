@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="12" y="-5" width="1137" height="873" text="Browser&#xA;http://www.readin.com/quests" measuredWidth="1137" measuredHeight="873">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VSplitter" id="15" x="168" y="62" height="801" measuredWidth="11" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="16" x="12" y="64" text="ReadIn" measuredWidth="139" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="40" y="144" measuredWidth="74" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="26" x="21" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Label" id="27" y="31" text="Meu perfil" measuredWidth="74" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="16" y="224" measuredWidth="122" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="30" x="45" measuredWidth="32" measuredHeight="32" icon="usergroup (large)"/>
+    <widgets xsi:type="model:Label" id="31" y="40" text="Grupos de leitura" measuredWidth="122" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="43" y="312" measuredWidth="67" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="35" x="18" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
+    <widgets xsi:type="model:Label" id="36" y="31" text="Wishlists" measuredWidth="67" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="23" y="400" measuredWidth="108" measuredHeight="65">
+    <widgets xsi:type="model:Icon" id="38" x="38" measuredWidth="32" measuredHeight="32" icon="book (large)"/>
+    <widgets xsi:type="model:Label" id="39" y="40" text="Minhas leituras" measuredWidth="108" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="60" x="1120" y="62" height="801" measuredWidth="17" measuredHeight="801"/>
+  <widgets xsi:type="model:Label" id="70" x="559" y="285" measuredWidth="6" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="120" x="1013" y="77" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
+  <widgets xsi:type="model:Callout" id="145" x="80" y="398" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="146" x="88" y="224" width="16" height="14" measuredWidth="16" measuredHeight="14">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="151" x="24" y="498" measuredWidth="99" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="152" x="29" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="153" y="31" text="ReadInQuests" measuredWidth="99" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="156" x="308" y="246" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+  <widgets xsi:type="model:Icon" id="157" x="206" y="238" measuredWidth="48" measuredHeight="48" icon="assets/fa-crown (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="158" x="260" y="244" measuredWidth="32" measuredHeight="32" icon="assets/fa-1 (large)"/>
+  <widgets xsi:type="model:Label" id="159" x="352" y="250" text="Beatriz Dias" measuredWidth="86" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="160" x="890" y="245" text="1250 XP" measuredWidth="98" measuredHeight="36">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="166" x="559" y="346" measuredWidth="6" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="167" x="308" y="314" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+  <widgets xsi:type="model:Icon" id="168" x="206" y="311" width="48" height="48" measuredWidth="48" measuredHeight="48" icon="assets/fa-award (large)"/>
+  <widgets xsi:type="model:Icon" id="169" x="260" y="314" measuredWidth="32" measuredHeight="32" icon="assets/fa-2 (large)"/>
+  <widgets xsi:type="model:Label" id="170" x="351" y="317" text="Fabiane Cristina" measuredWidth="113" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="171" x="890" y="314" text="1005 XP" measuredWidth="98" measuredHeight="36">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="172" x="308" y="385" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+  <widgets xsi:type="model:Icon" id="173" x="206" y="381" width="48" height="48" measuredWidth="48" measuredHeight="48" icon="assets/fa-award (large)"/>
+  <widgets xsi:type="model:Icon" id="174" x="260" y="384" measuredWidth="32" measuredHeight="32" icon="assets/fa-3 (large)"/>
+  <widgets xsi:type="model:Label" id="175" x="352" y="387" text="Arthur Rodríguez" measuredWidth="121" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="176" x="904" y="384" text="950 XP" measuredWidth="84" measuredHeight="36">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="177" x="218" y="199" width="767" measuredWidth="767" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="178" x="308" y="455" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+  <widgets xsi:type="model:Icon" id="179" x="260" y="454" measuredWidth="32" measuredHeight="32" icon="assets/fa-4 (large)"/>
+  <widgets xsi:type="model:Label" id="180" x="351" y="457" text="Gyeong" measuredWidth="56" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="181" x="901" y="454" text="702 XP" measuredWidth="84" measuredHeight="36">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="183" x="308" y="524" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+  <widgets xsi:type="model:Icon" id="184" x="260" y="524" measuredWidth="32" measuredHeight="32" icon="assets/fa-5 (large)"/>
+  <widgets xsi:type="model:Label" id="185" x="352" y="522" text="小島 秀夫" measuredWidth="69" measuredHeight="31">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="186" x="902" y="520" text="650 XP" measuredWidth="84" measuredHeight="36">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="187" x="304" y="246" width="165" measuredWidth="165" measuredHeight="30" link="../visualizar_perfil.screen"/>
+  <widgets xsi:type="model:Label" id="188" x="712" y="76" text="ReadInQuests" measuredWidth="275" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="189" x="219" y="155" measuredWidth="32" measuredHeight="32" icon="assets/fa-gem-o (large)"/>
+  <widgets xsi:type="model:Label" id="190" x="264" y="153" text="Liga Diamante" measuredWidth="170" measuredHeight="36">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="191" x="869" y="166" text="Faltam 2 dias" measuredWidth="117" measuredHeight="30" foreground="#c00">
+    <font size="19px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="192" x="658" y="82" width="48" height="48" measuredWidth="48" measuredHeight="48" icon="internet (large)"/>
+  <widgets xsi:type="model:Icon" id="194" x="307" y="615" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+  <widgets xsi:type="model:Icon" id="195" x="259" y="613" measuredWidth="32" measuredHeight="32" icon="assets/fa-6 (large)"/>
+  <widgets xsi:type="model:Label" id="196" x="351" y="618" text="Jane Collins" measuredWidth="85" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="197" x="901" y="614" text="650 XP" measuredWidth="84" measuredHeight="36">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="198" x="260" y="595" width="237" measuredWidth="237" measuredHeight="6" foreground="#38761d" lineStyle="dashed"/>
+  <widgets xsi:type="model:Label" id="199" x="547" y="583" text="Zona de Promoção" measuredWidth="159" measuredHeight="29" foreground="#38761d">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="204" x="748" y="595" width="237" measuredWidth="237" measuredHeight="6" foreground="#38761d" lineStyle="dashed"/>
+  <widgets xsi:type="model:Hotspot" id="205" x="864" y="166" width="137" measuredWidth="137" measuredHeight="30" link="quests_finalizado.screen"/>
+  <widgets xsi:type="model:Hotspot" id="206" x="39" y="136" height="71" measuredWidth="80" measuredHeight="71" link="../perfil.screen"/>
+  <widgets xsi:type="model:Hotspot" id="207" x="17" y="224" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../grupos_leitura/grupos_leitura.screen"/>
+  <widgets xsi:type="model:Hotspot" id="208" x="39" y="307" height="71" measuredWidth="80" measuredHeight="71" link="../wishlists.screen"/>
+  <widgets xsi:type="model:Hotspot" id="209" x="17" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../minhas_leituras/minhas_leituras.screen"/>
+  <widgets xsi:type="model:Hotspot" id="211" x="17" y="64" width="133" height="45" measuredWidth="133" measuredHeight="45" link="../timeline/timeline_inicio.screen"/>
+  <widgets xsi:type="model:Note" id="212" x="1136" width="265" height="881" measuredWidth="265" measuredHeight="881" annotation="false" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="659"/>
+  </vRuler>
+  <font size="14px"/>
+</model:Screen>

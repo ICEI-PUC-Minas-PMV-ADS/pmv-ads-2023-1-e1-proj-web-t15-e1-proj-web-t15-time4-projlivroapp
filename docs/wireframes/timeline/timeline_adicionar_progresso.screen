@@ -37,9 +37,6 @@
   <widgets xsi:type="model:Group" id="40" x="208" y="122" width="841" height="311" measuredWidth="841" measuredHeight="311">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Note" id="224" x="232" y="183" width="807" height="66" text="O capítulo 1 foi bastante intenso. &#xA;Acho que se conecta muito com questões atuais...&#xA;Por exemplo, nas relações interpessoais existe...." measuredWidth="807" measuredHeight="66" textAlignment="Left">
-    <font italic="true"/>
-  </widgets>
   <widgets xsi:type="model:Icon" id="41" x="233" y="141" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
   <widgets xsi:type="model:VScrollbar" id="60" x="1120" y="62" height="801" measuredWidth="17" measuredHeight="801"/>
   <widgets xsi:type="model:WidgetGroup" id="64" x="208" y="78" measuredWidth="409" measuredHeight="27">
@@ -53,17 +50,13 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="65" x="272" y="144" text="José da Silva" measuredWidth="91" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="65" x="272" y="144" text="Beatriz Dias" measuredWidth="86" measuredHeight="25">
     <font/>
   </widgets>
   <widgets xsi:type="model:TextArea" id="67" x="233" y="336" width="801" height="49" text="_Comentar...._" measuredWidth="801" measuredHeight="49">
     <font/>
   </widgets>
-  <widgets xsi:type="model:VLine" id="68" x="336" y="249" height="57" measuredWidth="6" measuredHeight="57"/>
   <widgets xsi:type="model:Label" id="70" x="559" y="311" measuredWidth="6" measuredHeight="24">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="72" x="352" y="246" width="687" height="57" text="&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa &#xA;quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. " measuredWidth="687" measuredHeight="57">
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="73" x="960" y="137" measuredWidth="32" measuredHeight="32" icon="thumbs-up (large)"/>
@@ -148,15 +141,6 @@
   <widgets xsi:type="model:Callout" id="146" x="88" y="224" width="16" height="14" measuredWidth="16" measuredHeight="14">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="147" x="43" y="498" measuredWidth="57" measuredHeight="56">
-    <widgets xsi:type="model:Icon" id="148" x="10" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
-    <widgets xsi:type="model:Label" id="149" y="31" text="&quot;Game&quot;" measuredWidth="57" measuredHeight="25">
-      <font/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:Callout" id="150" x="95" y="497" text="1" measuredWidth="27" measuredHeight="27">
-    <font bold="true"/>
-  </widgets>
   <widgets xsi:type="model:Callout" id="151" x="258" y="122" text="2" measuredWidth="27" measuredHeight="27">
     <font bold="true"/>
   </widgets>
@@ -188,18 +172,40 @@
     <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:Hotspot" id="161" x="1013" y="77" width="26" height="32" measuredWidth="26" measuredHeight="32" link="timeline_inicio.screen"/>
-  <widgets xsi:type="model:Group" id="162" x="312" y="108" width="694" height="416" text="*Adicionar*" measuredWidth="694" measuredHeight="416">
+  <widgets xsi:type="model:Button" id="220" x="972" y="116" text="X" measuredWidth="29" measuredHeight="27">
     <font/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="225" x="220" y="256" measuredWidth="819" measuredHeight="63">
-    <widgets xsi:type="model:VLine" id="226" x="116" y="5" height="57" measuredWidth="6" measuredHeight="57"/>
-    <widgets xsi:type="model:Icon" id="227" x="34" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
-    <widgets xsi:type="model:Text" id="228" x="132" y="2" width="687" height="57" text="Nossa que louco isso hem!&#xA;Nunca pensei que fosse desenrolar nisso, preciso ler essa parada, vei!" measuredWidth="687" measuredHeight="57">
+  <widgets xsi:type="model:Hotspot" id="221" x="974" y="119" width="26" height="26" measuredWidth="26" measuredHeight="26" link="timeline_inicio.screen"/>
+  <widgets xsi:type="model:WidgetGroup" id="240" x="24" y="498" measuredWidth="99" measuredHeight="56">
+    <widgets xsi:type="model:Icon" id="241" x="29" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
+    <widgets xsi:type="model:Label" id="242" y="31" text="ReadInQuests" measuredWidth="99" measuredHeight="25">
       <font/>
     </widgets>
-    <widgets xsi:type="model:Label" id="229" y="38" text="Leonardo Silva" measuredWidth="104" measuredHeight="25">
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="249" x="38" y="136" height="71" measuredWidth="80" measuredHeight="71" link="../perfil.screen"/>
+  <widgets xsi:type="model:Hotspot" id="250" x="16" y="224" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../grupos_leitura/grupos_leitura.screen"/>
+  <widgets xsi:type="model:Hotspot" id="251" x="38" y="307" height="71" measuredWidth="80" measuredHeight="71" link="../wishlists.screen"/>
+  <widgets xsi:type="model:Hotspot" id="252" x="16" y="397" width="115" height="71" measuredWidth="115" measuredHeight="71" link="../minhas_leituras/minhas_leituras.screen"/>
+  <widgets xsi:type="model:Hotspot" id="253" x="22" y="490" width="98" height="71" measuredWidth="98" measuredHeight="71" link="../quests/quests.screen"/>
+  <widgets xsi:type="model:Callout" id="150" x="95" y="497" text="1" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="254" x="12" y="64" width="133" height="45" measuredWidth="133" measuredHeight="45" link="timeline_inicio.screen"/>
+  <widgets xsi:type="model:Note" id="257" x="232" y="183" width="807" height="66" text="O capítulo 1 foi bastante intenso. &#xA;Acho que se conecta muito com questões atuais...&#xA;Por exemplo, nas relações interpessoais existe...." measuredWidth="807" measuredHeight="66" textAlignment="Left">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="258" x="220" y="256" measuredWidth="819" measuredHeight="63">
+    <widgets xsi:type="model:VLine" id="259" x="116" y="5" height="57" measuredWidth="6" measuredHeight="57"/>
+    <widgets xsi:type="model:Icon" id="260" x="34" measuredWidth="32" measuredHeight="32" icon="smile (large)"/>
+    <widgets xsi:type="model:Text" id="261" x="132" y="2" width="687" height="57" text="Nossa que louco isso hem!&#xA;Nunca pensei que fosse desenrolar nisso, preciso ler essa parada, vei!" measuredWidth="687" measuredHeight="57">
       <font/>
     </widgets>
+    <widgets xsi:type="model:Label" id="262" y="38" text="Leonardo Silva" measuredWidth="104" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Group" id="162" x="312" y="108" width="694" height="416" text="*Adicionar*" measuredWidth="694" measuredHeight="416">
+    <font/>
   </widgets>
   <widgets xsi:type="model:TabbedPane" id="164" x="336" y="137" width="656" height="374" text="*Progresso*, *Nota*" measuredWidth="656" measuredHeight="374" selection="0">
     <items x="10" y="0" width="92" height="30" text="*Progresso*"/>
@@ -234,11 +240,6 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="215" x="364" y="413" measuredWidth="32" measuredHeight="32" icon="assets/fa-glasses (large)"/>
-  <widgets xsi:type="model:Button" id="220" x="972" y="116" text="X" measuredWidth="29" measuredHeight="27">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Hotspot" id="221" x="974" y="119" width="26" height="26" measuredWidth="26" measuredHeight="26" link="timeline_inicio.screen"/>
-  <widgets xsi:type="model:Hotspot" id="222" x="439" y="138" width="49" measuredWidth="49" measuredHeight="30" link="timeline_adicionar_nota.screen"/>
   <widgets xsi:type="model:Hotspot" id="223" x="928" y="473" width="58" height="29" measuredWidth="58" measuredHeight="29" link="timeline_inicio.screen"/>
   <widgets xsi:type="model:Spinner" id="230" x="813" y="196" text="42" measuredWidth="41" measuredHeight="25">
     <font/>
@@ -267,6 +268,7 @@
   <widgets xsi:type="model:Label" id="238" x="864" y="415" text="de 360" measuredWidth="50" measuredHeight="25">
     <font/>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="222" x="444" y="139" width="49" measuredWidth="49" measuredHeight="30" link="timeline_adicionar_nota.screen"/>
   <hRuler/>
   <vRuler>
     <guides position="659"/>
