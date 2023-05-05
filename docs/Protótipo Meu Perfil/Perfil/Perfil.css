@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;}
+    
+.container {
+display: flex;
+}
+
+.logo{
+    width: 150px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  nav .logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  
+  nav .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  nav li {
+    padding: 45px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 20px;
+    width: 250px; 
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 3px 30px;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .edit-profile {
+    padding: 3px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .edit-profile input[type="file"] {
+    display: none;
+  }
+  
+  .edit-profile label {
+  background-color: #fff;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  }
+  
+  .edit-profile button {
+  background-color: #fff;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+  .profile-bio {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    align-items: center;
+    width: 230px;
+    height: 250px;
+  }
+  
+  .profile-bio h3 {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .recent-reads{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    text-align: center;
+  }
+
+  .recent-reads table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 70vh;
+    height: 30vh;
+  }
+
+  .recent-reads table img {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+  
+  .recent-reads table a {
+    display: block;
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .recent-reads table a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #ddd;
+  }
+  
+  .progress-bar::-webkit-progress-bar {
+    background-color: #ddd;
+    border-radius: 4px;
+  }
+  
+  .progress-bar::-webkit-progress-value {
+    background-color: #0077FF;
+    border-radius: 4px;
+  }
+
+  .groups {
+    position: absolute;
+    bottom: 10vh;
+    left: 200px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .group-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .group-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .group-info {
+    flex-grow: 1;
+  }
+  
+  .group-info h3 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+  }
+  
+  .group-info p {
+    margin: 0;
+    color: #666;
+  }
+  
