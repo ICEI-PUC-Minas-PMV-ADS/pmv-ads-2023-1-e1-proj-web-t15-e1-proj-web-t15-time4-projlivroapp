@@ -119,16 +119,13 @@ section .container {
         flex-direction: column;
         overflow: hidden;
         width: 100%;
-        display: flex;
-        
+        display: flex;       
    }
 
     #titulo_home {
         font-size: 24px;
         line-height: 48px;
-        text-align: center;
-       
-        
+        text-align: center;      
     }
 
     #texto_home p {
@@ -150,11 +147,7 @@ section .container {
         top: 50%;
         align-items: center;
     }
-
 }
-
-
-
 
 @media (max-width:600px) {
 
@@ -162,9 +155,29 @@ section .container {
         max-width:400px;
         max-height:300px;
         width: auto;
-        height: auto
-        
-        
+        height: auto;        
+    }
+
+    #titulo_home{
+              
+        margin: 0 calc((100% - 377px) / 2);
+        top: 50px;      
+    }    
+
+    #texto_home{
+        margin: 0 calc((10% - 100px) / 2); 
+         width: 380px;
+         font-size: 20px;
+         padding: 10%;
+    }
+}
+@media (max-width:600px) {
+
+    #img_home {
+        max-width:400px;
+        max-height:300px;
+        width: auto;
+        height: auto       
     }
 
     #titulo_home{
@@ -174,49 +187,12 @@ section .container {
        
     }
     
-
     #texto_home{
         margin: 0 calc((10% - 100px) / 2); 
          width: 380px;
          font-size: 20px;
          padding: 10%;
-    }
-
-    
-    
-    
-
-}
-@media (max-width:600px) {
-
-    #img_home {
-        max-width:400px;
-        max-height:300px;
-        width: auto;
-        height: auto
-        
-        
-    }
-
-    #titulo_home{
-              
-        margin: 0 calc((100% - 377px) / 2);
-        top: 50px;
-       
-    }
-    
-
-    #texto_home{
-        margin: 0 calc((10% - 100px) / 2); 
-         width: 380px;
-         font-size: 20px;
-         padding: 10%;
-    }
-
-    
-    
-    
-
+    }   
 }
 
 @media (max-width:376px) {
@@ -225,30 +201,15 @@ section .container {
         max-width:400px;
         max-height:300px;
         width: auto;
-        height: auto
-        
-        
+        height: auto;       
     }
 
-    #titulo_home{
-              
+    #titulo_home{             
         margin: 0 calc((100% - 377px) / 2);
-        top: 50px;
-       
+        top: 50px;       
     }
     
-
     #texto_home{
         display: none;
     }
-
-    
-    
-    
-
 }
-    
-
-
-
-
