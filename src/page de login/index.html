@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style.css">
+        <title>Página de login</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Open+Sans:wght@400;500;600;700&display=swap');
+            </style>
+    </head>
+    <body>
+        <container class="container">
+            <div class="logo">
+                <header>
+                    <img alt="" src="./Imagens/logo ReadIn.png" class="logo-topo">
+                </header>
+            </div>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="email"></label> 
+                    <input type="text" id="email" oninput="validacaoEmail()" onchange="validacaoEmail(form.email)" placeholder="Email"/>
+                </div><div id="msgemail"></div>
+                <div class="form-control">
+                    <label for="password"></label> 
+                    <input type="password" id="password" placeholder="Senha"/>
+                </div>
+                <div class="button-container">
+                    <button id="entrar" type="button" class="fifth">ENTRAR</button>
+                </div>
+                <div class="forgot-password">
+                    <a href="" id="link"> Esqueci minha senha</a>
+                </div>
+                <div>
+                    <hr class="linha-horizontal">
+                </div>
+                <div class="d-h-account">
+                    <h3 id="texto">Não tem uma conta?</h3>
+                </div>
+               <div class="button-container">
+                    <button href="" id="cadastre-se" class="custom-bn btn-5" type="submit">Cadastre-se</button>
+                </div>
+            </form>
+        </container>     
+        <div class="img-aside">
+            <img alt="" src="./Imagens/img login.png" id="img">
+        </div>
+    </body>
+</html>
+
+
+
+
+<!--
+.btnbtn-pinkbtn-animate{
+    position: ;
+}
+.text-box {
+    margin-left: 44vw;
+	 margin-top: 42vh;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+-->
+
