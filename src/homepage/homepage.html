@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ReadIn Home Page</title>
-        <link rel="stylesheet" href="style.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"/>
-  </head>
-  <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Inter:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <title>Projeto Home</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
     <header>
-        <div>
-            <img id="logo" src="logo ReadIn.png" alt="" />
-        </div>
-        <div>
-            <button id="botão1" type="button">Entrar</button>
-        </div>
-        <div>
-            <button id="botão2" type="button">Cadastre-se</button>
-        </div>
+        <section class="header">
+            <div class="container">
+                <div class="container-img">
+                    <img id="logo" src="images\LogoReadIn.png" alt="logo ReadIn">
+                </div>
+                <div class="container-buttons">
+                    <button class="button-entrar" type="button" onclick="">Entrar</button>
+                    <button class="button-cadastrar" type="button" onclick="">Cadastre-se</button>
+                </div>
+            </div>
+        </section>
     </header>
-    <div>
-        <img id="personagens" src="Imagemhomefinal.png" alt="" />
-    </div>
-    <div>
-        <h2 id="texto1">
-            Resgate o prazer da leitura em um mundo cada vez mais conectado.
-        </h2>
-    </div>
-    <div>
-        <p id="texto2">
-            Junte-se a nós e descubra uma nova forma de compartilhar suas
-            experiências literárias
-        </p>
-    </div>
-  </body>
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h1 id="titulo_home">Resgate o prazer da leitura em um mundo cada vez mais conectado.</h1>
+
+                <h1 id="texto_home">Junte-se a nós e descubra uma nova forma de compartilhar suas experiências
+                    literárias!
+                </h1>
+            </div>
+            <div class="container-home-img">
+                <img id="img_home" src="images\imagemhomefinal.png" alt="imagem de personagens lendo">
+            </div>
+        </section>
+
+    </main>
+</body>
+
 </html>
