@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+#Logo {
+    position: absolute;
+    width: 210px;
+    height: 64.62px;
+    left: 51px;
+    top: 35px;
+}
+
+.containermenu {
+    position: absolute;
+    display: flex;
+    height: 725px;
+    left: 85px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #263238;
+    line-height: 130px;
+    top: 50px;
+
+}
+
+#meuPerfil {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 123px;
+    top: 150px;
+}
+
+#gruposLeitura {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 123px;
+    top: 275px;
+}
+
+#Wishlist {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 123px;
+    top: 400px;
+}
+
+#minhasLeituras {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 123px;
+    top: 535px;
+}
+
+.Main {
+    position: absolute;
+    width: 1150px;
+    height: 600px;
+    left: 300px;
+    top: 81px;
+    background: rgba(217, 217, 217, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#divBusca {
+    position: absolute;
+    width: 299px;
+    height: 30px;
+    left: 680px;
+    top: 50px;
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.42);
+    border-radius: 25px;
+}
+
+#txtBusca {
+    float: right;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+}
+
+#divcadastrar {
+    position: absolute;
+    width: 299px;
+    height: 30px;
+    left: 1000px;
+    top: 50px;
+}
+
+
+.button-cadastrar {
+    width: 100px;
+    height: 30px;
+    background: #FF6D55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#textocadastro {
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 450px;
+    top: 52px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
