@@ -30,6 +30,7 @@
 <body>
     <div class="containermenu">
         <nav>
+            
 
             <ul>
                 <li> <a>Meu Perfil</a> </li>
@@ -48,19 +49,223 @@
     </div>
 
     <div class="Main">
-        
-        
 
-        
+        <div class="cadastro-leitura">
+            <div id="divBusca">
+                <img src="images/Lupa.png" id="Lupa" alt="Lupa" />
+                <input type="text" id="txtBusca" placeholder="Pesquisar título ou autor" />
+            </div>
+
+            <div id="divcadastrar">
+                <button class="button-cadastrar" type="button" onclick="">Cadastrar</button>
+            </div>
+
+            <div id="textocadastro">
+                <p>Cadastrar nova leitura</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="card Leitura fizalizada">
+                <div class="nome-livro" id="nome-livro">
+                    <p>Livro do desassossego (F. Pessoa)</p>
+                </div>
+
+                <img src="images/livro-desassossego.png" class="foto-livro" alt="Foto do livro-desassossego">
+                <img class="icone" src="images/medalha.png" alt="" />
+                <div class="progresso">
+                    <div class="box-progresso">
+                        <div class="progresso-status">
+                            <p>Progresso</p>
+                        </div>
+
+                        <div class="status-leiturafinalizado">
+                            <p>Finalizado!</p>
+                        </div>
+
+                        <div class="compartilhamento">
+                            <img src="images/Twitter.png" id="Twitter" alt="ícone Twitter">
+                            <img src="images/Facebook.png" id="Facebook" alt="ícone Facebook">
+                            <img src="images/Instagram.png" id="Instagram" alt="ícone Instagram">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="adicionar-nota">
+                    <div class="box-adicionar">
+                        <p>Adicionar nota</p>
+                    </div>                  
+                </div>
+                <div class="button-salvar-nota" id="button-salvar-Nota">
+                    <button class="button-salvar" type="button">Salvar</button>
+                </div>
+
+                <div class="notas-adicionadas">
+                    <label class="data-nota">14/04/2023 19:55 </label>
+                    <label class="nota"> - Comecei e não parei até acabar! Lindo!</label>                   
+                </div>
+
+            </div>
+
+
+
+
+            <div class="card em-andamento">
+                <div class="nome-livro" id="nome-livro">
+                    <p>O Astronauta (J. Kalfar)</p>
+
+                </div>
+                <img src="images/oastronauta.png" class="foto-livro" alt="Foto do livro-O Astronauta">
+                <img class="icone" src="images/Glasses.png" alt="" />
+
+
+                <div class="progresso">
+                    <div class="box-progresso">
+                        <div class="progresso-status">
+                            <p>Progresso</p>
+                        </div>
+
+                        <div class="status-leituraandamento">
+                            <label>Estou na página <input type="number" class="contador-páginas" id="txtContador"/></label>
+                        </div>
+
+                        <div class="total-paginas" id="totalPaginas">
+                            <p> de 360</p>
+                        </div>
+
+                        <div class="compartilhamento">
+                            <img src="images/Twitter.png" id="Twitter" alt="ícone Twitter">
+                            <img src="images/Facebook.png" id="Facebook" alt="ícone Facebook">
+                            <img src="images/Instagram.png" id="Instagram" alt="ícone Instagram">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="adicionar-nota">
+                    <div class="box-adicionar">
+                        <p>Adicionar nota</p>
+                    </div>                  
+                </div>
+                <div class="button-salvar-nota" id="button-salvar-Nota">
+                    <button class="button-salvar" type="button">Salvar</button>
+                </div>
+
+                <div class="notas-adicionadas">
+                    <label class="data-nota">17/01/2023 19:55 </label>
+                    <label class="nota"> - Eu estou amando!</label>                   
+                </div>
+
+            </div>
+             
+            <div class="card nawishlist">
+                <div class="nome-livro" id="nome-livro">
+                    <p>O Diário de Anne Frank (A. Frank) </p>
+                </div>
+                <img src="images/livro-AFrank.png" class="foto-livro" alt="Foto do livro-O Diário de Anne Frank">
+                <img class="icone" src="images/Heart.png" alt="" />
+
+
+                <div class="progresso">
+                    <div class="box-progresso">
+                        <div class="progresso-status">
+                            <p>Progresso</p>
+                        </div>
+                        <div class="status-leiturafinalizado">
+                            <p>Na Wishlist!</p>
+                        </div>
+
+                    
+
+                        <div class="compartilhamento">
+                            <img src="images/Twitter.png" id="Twitter" alt="ícone Twitter">
+                            <img src="images/Facebook.png" id="Facebook" alt="ícone Facebook">
+                            <img src="images/Instagram.png" id="Instagram" alt="ícone Instagram">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="adicionar-nota">
+                    <div class="box-adicionar">
+                        <p>Adicionar nota</p>
+                    </div>                  
+                </div>
+                <div class="button-salvar-nota" id="button-salvar-Nota">
+                    <button class="button-salvar" type="button">Salvar</button>
+                </div>
+
+                <div class="notas-adicionadas">
+                    <label class="data-nota"> </label>
+                    <label class="nota"> </label>                   
+                </div>
+
+
+
+                
+
+            </div>
+
+            <div class="card em-andamento">
+                <div class="nome-livro" id="nome-livro">
+                    <p>Dom Casmurro (M. de Assis)</p>
+                </div>
+                <img src="images/livro-domCasmurro.png" class="foto-livro" alt="Foto do Dom Casmurro">
+                <img class="icone" src="images/Glasses.png" alt="" />
+
+
+                <div class="progresso">
+                    <div class="box-progresso">
+                        <div class="progresso-status">
+                            <p>Progresso</p>
+                        </div>
+
+                        <div class="status-leituraandamento">
+
+                            <label>Estou na página <input type="number" class="contador-páginas" id="txtContador"/></label>
+                        </div>
+                        <div class="total-paginas" id="totalPaginas">
+                            <p> de 360</p>
+                        </div>
+
+                        <div class="compartilhamento">
+                            <img src="images/Twitter.png" id="Twitter" alt="ícone Twitter">
+                            <img src="images/Facebook.png" id="Facebook" alt="ícone Facebook">
+                            <img src="images/Instagram.png" id="Instagram" alt="ícone Instagram">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="adicionar-nota">
+                    <div class="box-adicionar">
+                        <p>Adicionar nota</p>
+                    </div>                  
+                </div>
+                <div class="button-salvar-nota" id="button-salvar-Nota">
+                    <button class="button-salvar" type="button">Salvar</button>
+                </div>
+
+                <div class="notas-adicionadas">
+                    <label class="data-nota">20/02/2023 15:02 </label>
+                    <label class="nota"> - Perfeito até agora.</label>                   
+                </div>
+
+            
+        </div>
+
+
+
+
+
+
     </div>
-
-
-
-
-
-
-
+    </div>
+    </div>
+    </div>
 </body>
-
 
 </html>

@@ -69,9 +69,315 @@ body {
 .Main {
     position: absolute;
     width: 1150px;
-    height: 600px;
+    height: 900px;
     left: 300px;
     top: 81px;
     background: rgba(217, 217, 217, 0.4);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#divBusca {
+    position: absolute;
+    width: 299px;
+    height: 30px;
+    left: 680px;
+    top: 50px;
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.42);
+    border-radius: 25px;
+}
+
+#txtBusca {
+    float: right;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+}
+
+#divcadastrar {
+    position: absolute;
+    width: 299px;
+    height: 30px;
+    left: 1000px;
+    top: 50px;
+}
+
+
+.button-cadastrar {
+    width: 100px;
+    height: 30px;
+    background: #FF6D55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#textocadastro {
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 450px;
+    top: 52px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.row {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+
+
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    margin: 20px;
+    position: block;
+    width: 500px;
+    height: 300px;
+    background: #FFFFFF;
+
+    margin-top: 100px;
+}
+
+.icone {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+    margin-top: -10px;
+}
+
+
+
+.foto-livro {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.nome-livro {
+    margin-left: 80px;
+    margin-top: 20px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-decoration-line: underline;
+    color: #5D2983;
+}
+
+.box-progresso {
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 76px;
+    margin-top: 50px;
+    margin-left: 80px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.progresso-status {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 10px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.status-leiturafinalizado {
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    left: 30px;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.compartilhamento {
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    left: 220px;
+    top: 15px;
+}
+
+.data-nota {
+    position: absolute;
+    align-items: center;
+    width: 600px;
+    height: 18px;
+    margin-top: 135px;
+    margin-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF6D55;
+}
+
+.nota {
+    position: absolute;
+    align-items: center;
+    width: 600px;
+    height: 18px;
+    margin-top: 135px;
+    margin-left: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.box-adicionar {
+    box-sizing: border-box;
+    position: absolute;
+    width: 375px;
+    height: 76px;
+    margin-top: 180px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+    border: 1px solid #000000;
+    border-radius: 15px;
+
+}
+
+.button-salvar {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 380px;
+    width: 80px;
+    height: 25px;
+    background: #5D2983;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Inter';
+}
+
+.contador-páginas {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 130px;
+    color: #000000;
+
+}
+
+#txtContador {
+    width: 45px;
+}
+
+.status-leituraandamento {
+    width: 157px;
+    height: 24px;
+    margin-top: 40px;
+    margin-left: 10PX;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.total-paginas{
+  
+
+    width: 74px;
+    height: 24px;
+    margin-top: -24px;
+    margin-left: 180PX;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+   
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
 }
