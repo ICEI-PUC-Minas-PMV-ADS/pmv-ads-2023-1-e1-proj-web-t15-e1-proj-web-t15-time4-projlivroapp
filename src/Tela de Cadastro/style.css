@@ -247,7 +247,7 @@ h4 {
 
   @media screen and (max-width: 1024px) {
     .logo {
-        visibility: hidden
+        visibility: hidden;
     }
 
   }
