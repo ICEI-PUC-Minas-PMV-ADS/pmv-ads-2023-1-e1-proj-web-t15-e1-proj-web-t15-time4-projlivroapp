@@ -21,6 +21,7 @@
     </head>
 
     <body>
+        <a href=".."></a>
         <div class="logo">
             <img src="./Imagens/Logo.svg" class="logo-topo">
         </div>
@@ -30,7 +31,6 @@
             <img src="./Imagens/pana.svg" class="img-aside">
 
         </div>
-
         <div class="container">
             <div class="header">
                 <h3>Cadastre-se agora e descubra um novo mundo de histórias!</h3>
@@ -38,13 +38,11 @@
                 <br>
             </div>
 
-            <form id="form" class="form"> 
+            <form id="form" class="form">
 
                 <div class="form-control">
-                    <label for="username"></label> 
-                    <input
-                    type="text"
-                     id="username" 
+                    <label for="username"></label>
+                    <input type="text" id="username" required
                      placeholder="Nome e Sobrenome"
                     />
                     <small>Campo obrigatório</small>
@@ -52,10 +50,8 @@
 
 
                  <div class="form-control">
-                    <label for="email"></label> 
-                    <input
-                    type="text"
-                    id="email" 
+                    <label for="email"></label>
+                    <input type="email" id="email" required
                     placeholder="Email"
                     />
                     <small>Digite um email válido</small>
@@ -63,10 +59,8 @@
                  </div>
 
                  <div class="form-control">
-                    <label for="password"></label> 
-                    <input
-                    type="password"
-                    id="password" 
+                    <label for="password"></label>
+                    <input type="password" id="password" required
                     placeholder="Senha"
                     />
                     <small>Senha com no mínimo 7 caracteres</small>
@@ -74,10 +68,8 @@
                  </div>
 
                  <div class="form-control">
-                    <label for="password-confirmation"></label> 
-                    <input
-                    type="password"
-                    id="password-confirmation" 
+                    <label for="password-confirmation"></label>
+                    <input type="password" id="password-confirmation" required 
                     placeholder="Confirme sua senha"
                     />
                     <small>As senhas devem ser iguais</small>
@@ -88,10 +80,8 @@
                  <div class="form-control">
                     <h3>Data de Nascimento</h3>
                     <br>
-                    <label for="birthday"></label> 
-                    <input
-                    type="date"
-                    id="date" 
+                    <label for="date"></label>
+                    <input type="date" id="date" required
                     placeholder="Dia"
                     />
                 </div>
@@ -100,13 +90,10 @@
 
 
             <div class="form-check form-check-inline">
-                <h4>Gênero</h4>
-                <br>
-                
-                <label class="checkbox-inline"><input type="radio" name="sexo" value="">Feminino</label>
-                <label class="checkbox-inline"><input type="radio" name="sexo" value="">Masculino</label>
-                <label class="checkbox-inline"><input type="radio" name="sexo" value="">Outros</label>
-
+                <label>Gênero:</label>
+                <label for="female"><input type="radio" id="female" name="gender" value="Feminino">Feminino</label>
+                <label for="male"><input type="radio" id="male" name="gender" value="Masculino">Masculino</label>
+                <label for="other"><input type="radio" id="other" name="gender" value="Outros">Outros</label>
             </div>    
 
 
@@ -126,7 +113,7 @@
 
         </container>
 
-            <script src="./scrpit.js"></script>
+            <script src="script.js"></script>
 
        
 
