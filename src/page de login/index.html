@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="script.js"></script>
+        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="style.css">
         <title>Página de login</title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Open+Sans:wght@400;500;600;700&display=swap');
-            </style>
+        </style>    
     </head>
     <body>
         <container class="container">
@@ -22,15 +22,15 @@
             </div>
             <form id="form" class="form">
                 <div class="form-control">
-                    <label for="email"></label> 
+                    <label id="emailLabel" for="email"></label> 
                     <input type="text" id="email" oninput="validacaoEmail()" onchange="validacaoEmail(form.email)" placeholder="Email"/>
                 </div><div id="msgemail"></div>
                 <div class="form-control">
-                    <label for="password"></label> 
+                    <label id="pswrdLabel" for="password"></label> 
                     <input type="password" id="password" placeholder="Senha"/>
                 </div>
                 <div class="button-container">
-                    <button id="entrar" type="button" class="fifth">ENTRAR</button>
+                    <button onclick="entrar()" href="" type="submit"  id="entrar" class="fifth">ENTRAR</button>
                 </div>
                 <div class="forgot-password">
                     <a href="" id="link"> Esqueci minha senha</a>
@@ -50,9 +50,8 @@
             <img alt="" src="./Imagens/img login.png" id="img">
         </div>
     </body>
+    <script src="script.js" defer></script>
 </html>
-
-
 
 
 <!--
