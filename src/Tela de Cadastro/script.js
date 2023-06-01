@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('user', JSON.stringify(user));
 
     alert('Cadastro realizado com sucesso!');
-    window.location.href="login/home.html"
+    window.location.href="../page de login/index.html"
 
 
   });
