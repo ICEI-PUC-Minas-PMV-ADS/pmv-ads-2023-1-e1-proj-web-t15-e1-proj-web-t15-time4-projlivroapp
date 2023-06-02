@@ -20,8 +20,11 @@ function validacaoEmail(field) {
 }
 
 let botaoEntrar = document.getElementById("entrar")
- 
-window.onload = function entrar(){
+
+botaoEntrar.addEventListener("click", entrar())
+
+/*window.onload*/ //=
+function entrar(){
 
     let usuario = document.getElementById("email")
     let usuarioLabel = document.getElementById("emailLabel")
@@ -41,15 +44,15 @@ window.onload = function entrar(){
 
     console.log(listaUser)
     
+
     listaUser.forEach((item) => {
         if(usuario.value == item.email && senha.value == item.password){
 
             userValid = {
-                nome: item.username,
-                email: item.email,
-                senha: item.password
+                nome: item.usuario,
+                //email: item.email,
+                senha: item.senha
             }
         }
-    })
+    }) 
 }
-
