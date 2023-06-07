@@ -1,9 +1,9 @@
 function direcionarPaginaLogin () {
-    window.location.href="../page de login/index.html"
+    window.location.href="./src/page de login/index.html"
 }
 
 function direcionarPaginaCadastro () {
-    window.location.href="../Tela de Cadastro/index.html"
+    window.location.href="../src/Tela de Cadastro/index.html"
 }
 
 document.addEventListener ("DOMContentLoaded", function () {
