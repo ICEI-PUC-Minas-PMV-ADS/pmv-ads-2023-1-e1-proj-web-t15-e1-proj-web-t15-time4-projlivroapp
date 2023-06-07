@@ -3,7 +3,7 @@ function direcionarPaginaLogin () {
 }
 
 function direcionarPaginaCadastro () {
-    window.location.href="src/Tela de Cadastro/index.html"
+    window.location.href="./src/Tela de Cadastro/index.html"
 }
 
 document.addEventListener ("DOMContentLoaded", function () {
