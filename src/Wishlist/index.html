@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Open+Sans:wght@400;500;600;700&display=swap');
+    
+    </style>
+    
+    
+
+    <title>Wishlist</title>
+
+
+</head>
+
+<header>
+    <section class="header">
+        <div class="container">
+            <img id="logo" src="images/Logo.png" alt="logo ReadIn">
+        </div>
+    </section>
+
+
+</header>
+
+<body>
+    <div class="containermenu">
+
+        <nav>
+
+            <ul>
+                <li> <a id="btn-perfil" href="">Meu Perfil</a></li>
+                <li> <a id= "btn-wishlist" href="">Wishlists</a></li>
+                <li> <a id="btn-leituras" href="">Minhas leituras</a></li>
+
+            </ul>
+
+            <img id="meuPerfil" src="images/meuPerfil.png" alt="ícone meu perfil">
+            <img id="wishlist" src="images/Wishlist.png" alt="ícone meu perfil">
+            <img id="minhasLeituras" src="images/minhasLeituras.png" alt="ícone meu perfil">
+
+    </div>
+    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+        <span id="hamburger"></span>
+    </button>
+
+
+    </nav>
+
+    </div>
+
+    <div class="main">
+
+        <!-- Modal cadastro -->
+    <div class="modal fade" id="md_window" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="md_title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="md_title">Livro</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mt-2">
+                        <div id="msg_frm" role="alert"></div>
+                    </div>
+                    <form id="form-contato">
+                        <div class="row mt-3">
+                            <div class="col-sm-4">
+                                <label for="f_id">Id</label>
+                                <input type="text" class="form-control" id="f_id" placeholder="ID" disabled>
+                            </div>
+                            <div class="col-sm-8">
+                                <label for="f_titulo">Titulo <span class="text-info">*</span></label>
+                                <input type="text" class="form-control" id="f_titulo" required placeholder="Titulo do livro">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-12">
+                                <label for="f_autor">Autor <span class="text-info">*</span></label>
+                                <input type="text" class="form-control" id="f_autor" required placeholder="Autor do livro">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-4">
+                                <label for="f_edicao">Edição <span class="text-info">*</span></label>
+                                <input type="text" class="form-control" id="f_edicao" required placeholder="Nº Edição">
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="f_ano">Ano</label>
+                                <input type="text" class="form-control" id="f_ano" placeholder="####">
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="f_qtde_paginas">Páginas</label>
+                                <input type="text" class="form-control" id="f_qtde_paginas" placeholder="Qtde">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-5">
+                                <label for="f_genero">Gênero <span class="text-info">*</span></label>
+                                <select class="form-select" id="f_genero" aria-label="Gênero do livro">
+                                    <option selected>Selecione</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="col-sm-7">
+                                <label for="f_local">Tipo</label>
+                                <select class="form-select" id="f_tipo" aria-label="Tipo">
+                                    <option selected>Selecione</option>
+                                    <option selected>Físico</option>
+                                    <option selected>E-book</option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-12">
+                                <label id="lbl_foto" for="f_foto" class="form-label">Foto da capa<span class="text-info">*</span></label>
+                                <input class="form-control" type="file" id="f_foto">
+                            </div>
+                        </div> -->
+                        <div class="row mt-3">
+                            <div class="col-sm-12"> 
+                               <div class="form-check">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button id="btn_cancel" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button id="btn_save" type="button" class="btn btn-primary">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-2">
+            <div id="msg_list" role="alert"></div>
+        </div>
+        <div class="d-flex flex-row-reverse">
+            <div class="">
+                <button id="btn_add" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#md_window">
+                    Novo registro
+                </button>
+            </div>
+            
+            
+        </div>
+      
+            
+            
+        </div>
+        <div class="row border-top mt-1">
+            <div class="col-sm-12">
+                <table id="tbl_book" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col">Autor</th>
+                            <th scope="col">Título</th>
+                            <th scope="col">Gênero</th>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table_body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+
+
+       
+    
+
+
+   
