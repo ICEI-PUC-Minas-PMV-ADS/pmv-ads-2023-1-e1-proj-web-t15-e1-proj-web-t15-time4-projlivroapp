@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Inter:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Minhas leituras</title>
+
+</head>
+<header>
+    <section class="header">
+        <div class="container">
+            <img id="Logo" src="images/Logo.png" alt="logo ReadIn">
+        </div>
+    </section>
+</header>
+
+<body>
+    <!-- Menu vertical padrão -->
+    <div class="containermenu">
+        <nav>
+            <ul>
+                <li><a href="#">Meu Perfil</a></li>
+                <li><a href="#">Wishlists</a></li>
+                <li><a href="#">Minhas leituras</a></li>
+            </ul>
+
+            <img class="img-menu" id="meuPerfil" src="images/meuPerfil.png" alt="ícone meu perfil" />
+            <img class="img-menu" id="Wishlist" src="images/Wishlist.png" alt="ícone meu perfil" />
+            <img class="img-menu" id="minhasLeituras" src="images/minhasLeituras.png" alt="ícone meu perfil" />
+
+        </nav>
+    </div>
+
+    <div class="Main">
+        <!-- BOtão cadastrar -->
+        <div class="cadastro-leitura">
+
+            <div id="divcadastrar">
+                <button id="open-modal" class="button-cadastrar" type="button" onclick="openModal()">Cadastrar</button>
+            </div>
+
+            <div id="textocadastro">
+                <p>Nova leitura</p>
+            </div>
+        </div>
+
+        <div class="row" id="divCards">
+            <!-- Cards -->
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="md_title">Livro</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                    onclick="closeModal()"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row mt-2">
+                    <div id="msg_frm" role="alert"></div>
+                </div>
+                <form id="myForm">
+                    <div class="row mt-3">
+
+                        <form id="form-contato">
+                            <div class="row mt-3">
+                                <div class="col-sm-4">
+                                    <label for="f_id">Id</label>
+                                    <input type="text" class="form-control" id="f_id" placeholder="ID" disabled>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="f_titulo">Titulo <span class="text-info">*</span></label>
+                                    <input type="text" class="form-control" id="f_titulo" required
+                                        placeholder="Titulo do livro">
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-10">
+                                    <label for="f_autor">Autor <span class="text-info">*</span></label>
+                                    <input type="text" class="form-control" id="f_autor" required
+                                        placeholder="Autor do livro">
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-4">
+                                    <label for="f_edicao">Edição <span class="text-info">*</span></label>
+                                    <input type="number" class="form-control" id="f_edicao" required
+                                        placeholder="Nº Edição">
+                                </div>
+                                <div class="col-sm-3">
+                                    <label for="f_ano">Ano</label>
+                                    <select class="form-control" id="f_ano" onchange="toggleYearInput()">
+                                        <option value=""></option>
+                                        <!-- Opções de ano geradas dinamicamente com JavaScript -->
+                                    </select>
+                                    <input type="number" class="form-control" id="f_ano_outro"
+                                        placeholder="Digite o ano" style="display: none;">
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <label for="f_qtde_paginas">Páginas</label>
+                                    <input type="number" class="form-control" id="f_qtde_paginas" placeholder="Qtde">
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-12">
+                                    <label for="f_genero">Gênero <span class="text-info">*</span></label>
+                                    <select class="text" id="f_genero" aria-label="Gênero do livro">
+                                        <option selected>Romance</option>
+                                        <option selected>Lírico</option>
+                                        <option selected>Dramático</option>
+                                        <option selected>Épico</option>
+                                        <option selected>Novela</option>
+                                        <option selected>Poema</option>
+                                        <option selected>Conto</option>
+                                        <option selected>Crônica</option>
+                                        <option selected>Canção</option>
+                                        <option selected>Drama histórico</option>
+                                        <option selected>Teatro de vanguarda</option>
+                                        <option selected>Outro</option>
+                                        <option selected></option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-10">
+                                    <label id="lbl_foto" for="f_foto" class="form-label">Foto da capa<span
+                                            class="text-info">*</span></label>
+                                    <input class="form-control" type="file" id="f_foto">
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="btn_cancel" type="button" class="btn btn-secondary"
+                            onclick="closeModal()">Cancelar</button>
+                        <button onclick="cadastrarLivro()" id="btn_save" type="button"
+                            class="btn btn-primary">Salvar</button>
+                    </div>
+            </div>
+
+            <script src="script.js"></script>
+            <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                crossorigin="anonymous"></script>
+
+            <!--Script index-->
+        </div>
+    </div>
+</body>
+</html>
