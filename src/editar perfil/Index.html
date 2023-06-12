@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Editar perfil</title>
+</head>
+<header>
+    <section class="header">
+        <div class="container">
+            <img id="Logo" src="images/Logo.png" alt="logo ReadIn">
+        </div>
+    </section>
+</header>
+<body>
+    <div class="containermenu">
+        <nav>
+            <ul class="aside-menu"> 
+                <li><a href="">Meu Perfil</a></li> 
+                <li><a>Grupo de Leitura</a> </li>
+                <li><a>Wishlists</a></li>
+                <li><a>Minhas leituras</a></li>
+            </ul>
+            <img id="meuPerfil" src="images/meuPerfil.png" alt="ícone meu perfil">
+            <img id="gruposLeitura" src="images/gruposLeitura.png" alt="ícone meu perfil">
+            <img id="Wishlist" src="images/Wishlist.png" alt="ícone meu perfil">
+            <img id="minhasLeituras" src="images/minhasLeituras.png" alt="ícone meu perfil">
+            </div>
+        </nav>
+    </div>
+    <div class="Main">
+        <div class="informacoes">
+            <h1>Informações da conta</h1>
+        </div>
+        <div class="txtnome">
+            <h3>Nome do perfil</h3>
+        </div>
+        <div class="txtexemplo">
+            <p>Escolha como seu nome aparecerá no Readin:</p>
+        </div>
+        <div class="fname">
+            <label for="name">Primeiro nome:</label>
+        </div>
+        <div class="input-name">
+            <input class="nome" type="text" maxlength="20">
+        </div>
+        <div class="lname">
+            <label for="lastname">Sobrenome:</label>
+        </div>
+        <div class="input-lname">
+            <input class="sobrenome" type="text" maxlength="50">
+        </div>
+        <div class="imagem">
+            <img id="img" src="./images/do-utilizador.png" alt="">
+            <input type="file" id="flImage" name="fImage" accept="image/*">
+        </div>
+        <div class="addimg">
+            <p class="add-img">Adicionar imagem</p>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
