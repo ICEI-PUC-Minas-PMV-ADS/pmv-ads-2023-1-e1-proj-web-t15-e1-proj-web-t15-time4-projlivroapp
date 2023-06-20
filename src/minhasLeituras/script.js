@@ -100,6 +100,10 @@ function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
+function editModal(){
+  document.getElementById("myModal").style.display = "block";
+}
+
 // Função para fechar o modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
@@ -152,7 +156,7 @@ function load_database() {
 
     card = `<div class="card em-6-ento">
       <div class="nome-livro" id="nome-livro">
-          <p> ${book.titulo} </p>
+          <p onclick="editModal()"> ${book.titulo} </p>
       </div>
       <img class="foto-livro" alt="Foto do livro ${book.titulo}" src="${book.foto}"/>
       <img class="icone-close" src="images/close.png" alt="Fechar" onclick="remove(${book.id})"/>
@@ -281,3 +285,4 @@ function getFormattedDateTime() {
 
   return `${day}/${month}/${year} ${hours}:${minutes}`;
 }
+
