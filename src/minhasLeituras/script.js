@@ -100,8 +100,66 @@ function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
-function editModal(){
+function load_book_for_update(id) {
+  let idx = find_by_id(id);
+  book = db[idx];
+  set_modal_inp_file(book.foto);
+  set_form_by_obj(book);
   document.getElementById("myModal").style.display = "block";
+}
+
+function set_form_by_obj(book) {
+  let fields = new Array('id', 'autor', 'titulo', 'edicao', 'ano', 'qtde_paginas', 'tipo');
+  for (let i = 0; i < fields.length; i++)
+      $("#f_" + fields[i]).val(book[fields[i]]);
+  $("select#f_genero option").each(function() {
+      this.selected = (this.value == book.genero);
+  })
+}
+
+function set_modal_inp_file(foto = null) {
+  const ffoto = document.getElementById('f_foto')
+  const lfoto = document.getElementById('lbl_foto')
+  if (foto == null) {
+      lfoto.innerHTML = 'Foto da capa<span class="text-info">*</span>';
+      if (ffoto.classList.contains('d-none')) ffoto.classList.remove('d-none')
+      lfoto.classList = 'form-label'
+  } else {
+      lfoto.innerHTML = 'Clique aqui para Alterar a foto';
+      if (!ffoto.classList.contains('d-none')) ffoto.classList.add('d-none')
+      lfoto.classList = 'btn btn-light btn-sm'
+  }
+}
+
+function insert_or_update() {
+  if (validate_form()) {
+      const id = $("#f_id").val();
+      if (!id) cadastrarLivro()
+      else editarLivro(id)
+  } else
+      alert("Dados inválidos.");
+}
+
+// validation form
+function validate_form() {
+  let book = get_book_form()
+  if (!book.titulo || !book.autor || !book.edicao || !book.genero || (!book.foto && !book.id))
+      return false;
+  return true;
+}
+
+// Função para editar um card já cadastrado
+function editarLivro(id) {
+  let idx = find_by_id(id);
+  let book = get_book_form();
+  if (book.foto)
+      set_url_img_ls(document.getElementById('f_foto'), book);
+  else
+      book.foto = db[idx].foto;
+  db[idx] = book;
+  alert("Livro atualizado com sucesso");
+  window.setTimeout(save_and_update_db, 500);
+  closeModal();
 }
 
 // Função para fechar o modal
@@ -156,7 +214,7 @@ function load_database() {
 
     card = `<div class="card em-6-ento">
       <div class="nome-livro" id="nome-livro">
-          <p onclick="editModal()"> ${book.titulo} </p>
+          <p onclick="load_book_for_update(${book.id})"> ${book.titulo} </p>
       </div>
       <img class="foto-livro" alt="Foto do livro ${book.titulo}" src="${book.foto}"/>
       <img class="icone-close" src="images/close.png" alt="Fechar" onclick="remove(${book.id})"/>
@@ -180,7 +238,7 @@ function load_database() {
           </div>
       </div>
       <div class="button-salvar-nota" id="button-salvar-Nota">
-          <button class="button-salvar" type="button" onclick="update(${book.id})">Salvar</button>
+          <button class="button-salvar" type="button" onclick="updateComentario(${book.id})">Salvar</button>
       </div>
       <div class="notas-adicionadas">
           <label class="data-nota">${book.dataComentario} </label>
@@ -216,7 +274,7 @@ function find_by_id(id) {
 }
 
 //Função que atualiza o card com o comentario novo
-function update(id) {
+function updateComentario(id) {
   let idx = find_by_id(id);
   let book = db[idx];
   book.comentario = $("#mensagem_" + book.id).val();
