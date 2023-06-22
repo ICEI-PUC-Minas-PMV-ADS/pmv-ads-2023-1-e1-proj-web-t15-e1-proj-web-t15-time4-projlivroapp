@@ -100,6 +100,7 @@ function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
+//Busca os dados do livro selecionado
 function load_book_for_update(id) {
   let idx = find_by_id(id);
   book = db[idx];
@@ -108,6 +109,7 @@ function load_book_for_update(id) {
   document.getElementById("myModal").style.display = "block";
 }
 
+//Preenche o formulario com os dados do livro que irá editar
 function set_form_by_obj(book) {
   let fields = new Array('id', 'autor', 'titulo', 'edicao', 'ano', 'qtde_paginas', 'tipo');
   for (let i = 0; i < fields.length; i++)
