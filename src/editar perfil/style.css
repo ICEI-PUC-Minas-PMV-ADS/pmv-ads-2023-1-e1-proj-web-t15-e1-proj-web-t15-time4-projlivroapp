@@ -35,7 +35,7 @@ body {
     text-align: center;
     color: #263238;
     line-height: 130px;
-    top: 50px;
+    top: -30px;
 
 }
 
@@ -44,24 +44,18 @@ body {
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 20px;
-    top: 100px;
+    left: 10px;
+    top: 160px;
 }
 
-#gruposLeitura {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 20px;
-    top: 230px;
-}
+
 
 #Wishlist {
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 20px;
-    top: 350px;
+    left: 10px;
+    top: 290px;
 }
 
 .informacoes{
@@ -176,8 +170,8 @@ input[type='file'] {
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 20px;
-    top: 480px;
+    left: 10px;
+    top: 420px;
 }
 
 .Main {
