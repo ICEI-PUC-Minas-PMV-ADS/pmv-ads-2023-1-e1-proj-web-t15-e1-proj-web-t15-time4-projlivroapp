@@ -11,13 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const date = document.getElementById('date').value;
     const gender = document.querySelector('input[name="gender"]:checked').value;
 
-    const user = {
+    const user = JSON.parse(localStorage.getItem('user') || '[]')
+    user.push ({
       username,
       email,
       password,
       date,
       gender
-    };
+    })
 
 
     if (password !== passwordConfirmation) {
